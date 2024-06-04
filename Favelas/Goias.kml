@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Goias</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<description>Exported from CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz on 6/12/2011</description>
+	<Schema name="CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz" id="CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+		<SimpleField type="string" name="CodAGSN_BogOut2011">
+			<displayName>CodAGSN_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="NomeAGSN_BogOut2011">
+			<displayName>NomeAGSN_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="SiglaUF_CGEO">
+			<displayName>SiglaUF_CGEO</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="CodMun_BogOut2011">
+			<displayName>CodMun_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="NomeMun_BogOut2011">
+			<displayName>NomeMun_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="DPO_EmAGSN">
+			<displayName>DPO_EmAGSN</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="PopEmDPO_EmAGSN">
+			<displayName>PopEmDPO_EmAGSN</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="VILA UNIÃO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="JARDIM BOTÂNICO I_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="JARDIM BOTÂNICO I">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2b8f8fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="JARDIM BOTÂNICO II_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="QUEBRA CAIXOTE_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="NOVO PARAÍSO II_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="EMÍLIO PÓVOA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="EMÍLIO PÓVOA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcb3cf</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="VILA UNIÃO II">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2f9b3fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="VILA UNIÃO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2d9fcca</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="VILA UNIÃO II_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="JARDIM GOIÁS ÁREA I">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcf8d4</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="ROCINHA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="JARDIM GUANABARA I">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2bfb8fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="QUEBRA CAIXOTE">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcc3bd</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="JARDIM BOTÂNICO II">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2f0d7fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="VILA GUAÍRA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="JARDIM GOIÁS ÁREA I_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="JARDIM GUANABARA I_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="ROCINHA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2b6ccfc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="NOVO PARAÍSO I">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2b3fcb8</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="NOVO PARAÍSO I_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="VILA GUAÍRA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcdec2</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="NOVO PARAÍSO II">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2d8b3fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>Aglomerados Subnormais em GO</name>
+		<Folder>
+			<name>ANÁPOLIS</name>
+			<Folder>
+				<name>NOVO PARAÍSO II</name>
+				<Placemark>
+					<name>NOVO PARAÍSO II</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#NOVO PARAÍSO II</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52011080001</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">NOVO PARAÍSO II</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5201108</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">ANÁPOLIS</SimpleData>
+							<SimpleData name="DPO_EmAGSN">352</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1219</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-48.9795046019999,-16.3530511304895,0 -48.9784753959999,-16.3529203704895,0 -48.9780337589999,-16.3525592324895,0 -48.978249693,-16.3515284534896,0 -48.9785960019999,-16.3513410394896,0 -48.97878341599991,-16.3511210314896,0 -48.9785104429999,-16.3509010234896,0 -48.9780052399999,-16.3506199024896,0 -48.97797695999991,-16.3505950194896,0 -48.9773615119999,-16.3501024764897,0 -48.9769296449999,-16.3496624604896,0 -48.976250407,-16.3488730764897,0 -48.9764931759999,-16.3486842924896,0 -48.9767737219999,-16.3484543894897,0 -48.977039799,-16.3482863834897,0 -48.9773388339999,-16.3479423324897,0 -48.9774650389999,-16.3477622684897,0 -48.9776225949999,-16.3475267384897,0 -48.9776716309999,-16.3473764174897,0 -48.97787983,-16.3472759354897,0 -48.9780783819999,-16.3472751314897,0 -48.9782600539999,-16.3471457104897,0 -48.9783830439999,-16.3470460324897,0 -48.9785872239999,-16.3470122704897,0 -48.97881712699989,-16.3468949064897,0 -48.9790012099999,-16.3468426564897,0 -48.97917484300001,-16.3467678974897,0 -48.97938304199991,-16.3466392804897,0 -48.9795397939999,-16.3464849394897,0 -48.9797045849999,-16.3463587344897,0 -48.9799674459999,-16.3463322074897,0 -48.98020056499989,-16.3463579304898,0 -48.9804770919999,-16.3463563224898,0 -48.9806032969999,-16.3464077694897,0 -48.9808653549999,-16.3464077694897,0 -48.98113551099991,-16.3462925864897,0 -48.9811764469999,-16.3462751334897,0 -48.9813283759999,-16.3461015004897,0 -48.9814417199999,-16.3460677384897,0 -48.98156149499989,-16.3460725614897,0 -48.981662781,-16.3461079304898,0 -48.9817262849999,-16.3461585734898,0 -48.981743273,-16.3461813964898,0 -48.9815904369999,-16.3462304974898,0 -48.98156002100001,-16.3463197184898,0 -48.981535688,-16.3464941044897,0 -48.9816107139999,-16.3466907954897,0 -48.9819128479999,-16.3468651814897,0 -48.9821075109999,-16.3470720114897,0 -48.9821383949999,-16.3471328754897,0 -48.9823146769999,-16.3471553104897,0 -48.98251660099991,-16.3472322344897,0 -48.98287237099989,-16.3473540294897,0 -48.9830742939999,-16.3475335164897,0 -48.9831608329999,-16.3477033884897,0 -48.98322813999991,-16.3479277484897,0 -48.9832377559999,-16.3481489024897,0 -48.98318006299989,-16.3486617234897,0 -48.9832473709999,-16.3487931344897,0 -48.9834140379999,-16.3489149294897,0 -48.9834204489999,-16.3489598014896,0 -48.983247371,-16.3492065964897,0 -48.9832698069999,-16.3492867244897,0 -48.9833819869999,-16.3493924944896,0 -48.9835582689999,-16.3495142894897,0 -48.983686475,-16.3496585204896,0 -48.9837473719999,-16.3497899304896,0 -48.9839492959999,-16.3500271104896,0 -48.984260193,-16.3505559574896,0 -48.9844685269999,-16.3507642914896,0 -48.9848018609999,-16.3510431374896,0 -48.984862614,-16.3510951754896,0 -48.9831574679999,-16.3506971604896,0 -48.9816416209999,-16.3503433314896,0 -48.9813862429999,-16.3514447194896,0 -48.9817818729999,-16.3526971314896,0 -48.98140427699991,-16.3528628994896,0 -48.981043929,-16.3529474254896,0 -48.98039886299999,-16.3529830154896,0 -48.9801120019999,-16.3530258214896,0 -48.9795046019999,-16.3530511304895,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>NOVO PARAÍSO I</name>
+				<Placemark>
+					<name>NOVO PARAÍSO I</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#NOVO PARAÍSO I</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52011080014</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">NOVO PARAÍSO I</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5201108</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">ANÁPOLIS</SimpleData>
+							<SimpleData name="DPO_EmAGSN">161</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">593</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-48.9846679359999,-16.3548680054895,0 -48.9846248769999,-16.3548487044895,0 -48.98260150999991,-16.3547649214895,0 -48.9817511089999,-16.3547314084895,0 -48.9818432699999,-16.3542915454895,0 -48.9821490799999,-16.3539061424895,0 -48.9823292139999,-16.3534537124895,0 -48.9824884019999,-16.3531311464896,0 -48.9822412409999,-16.3528923634896,0 -48.9821574579999,-16.3527457434896,0 -48.9820527289999,-16.3526661484896,0 -48.9817818729999,-16.3526971314896,0 -48.9813862429999,-16.3514447194896,0 -48.9816416209999,-16.3503433314896,0 -48.9831574679999,-16.3506971604896,0 -48.984862614,-16.3510951754896,0 -48.9850722329999,-16.3512747224896,0 -48.98511540599991,-16.3514960884896,0 -48.985724258,-16.3541809074895,0 -48.98546973999989,-16.3544808754895,0 -48.9854503969999,-16.3545036724895,0 -48.9851936519999,-16.3544205354895,0 -48.9849466879999,-16.3544645494895,0 -48.98476329899999,-16.3546308224895,0 -48.9846679359999,-16.3548680054895,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>GOIÂNIA</name>
+			<Folder>
+				<name>QUEBRA CAIXOTE</name>
+				<Placemark>
+					<name>QUEBRA CAIXOTE</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#QUEBRA CAIXOTE</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52087070001</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">QUEBRA CAIXOTE</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5208707</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">GOIÂNIA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">252</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">851</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-49.2333111699999,-16.6810731554805,0 -49.2331038559999,-16.6806595794805,0 -49.2327092889999,-16.6799163244805,0 -49.23190638999989,-16.6783954054806,0 -49.2310025559999,-16.6767804324806,0 -49.2305391689999,-16.6759155964806,0 -49.2299684959999,-16.6749171314806,0 -49.2300117229999,-16.6749113964807,0 -49.23030868599991,-16.6750763144807,0 -49.2311590889999,-16.6755698514806,0 -49.2319905099999,-16.6770599554806,0 -49.23248784399989,-16.6761450124806,0 -49.2333534329999,-16.6777129434806,0 -49.23345973299989,-16.6776408114806,0 -49.2337349759999,-16.6773826534806,0 -49.2336799269999,-16.6777034524806,0 -49.23364006399989,-16.6780755034806,0 -49.2335292029999,-16.6792430174805,0 -49.2335185779999,-16.6793549054806,0 -49.2334052539999,-16.6803495104805,0 -49.2333748359999,-16.6803924414805,0 -49.2333111699999,-16.6810731554805,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>ROCINHA</name>
+				<Placemark>
+					<name>ROCINHA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#ROCINHA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52087070002</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">ROCINHA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5208707</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">GOIÂNIA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">84</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">298</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-49.2675973309999,-16.7319138514791,0 -49.26729005199991,-16.7318749554791,0 -49.267039172,-16.7317854944791,0 -49.2667630099999,-16.7316415784791,0 -49.2665665849999,-16.7315560074791,0 -49.2664751789999,-16.7315365594791,0 -49.265933581,-16.7312382084791,0 -49.2660142599999,-16.7310386894791,0 -49.2664033109999,-16.7301492014792,0 -49.2664906179999,-16.7301192674792,0 -49.2666493929999,-16.7300455614791,0 -49.2671341959999,-16.7297351164791,0 -49.2685386159999,-16.7288527294792,0 -49.2690909399999,-16.7285182234792,0 -49.2691571569999,-16.7284848644792,0 -49.26938710100001,-16.7283390464792,0 -49.2702384519999,-16.7278174674792,0 -49.2708598599999,-16.7274461924792,0 -49.2717942179999,-16.7268495814792,0 -49.2719834139999,-16.7267710474792,0 -49.27211018399991,-16.7289847564792,0 -49.2719790649999,-16.7290930324792,0 -49.271691508,-16.7294325764792,0 -49.2711675699999,-16.7300816104792,0 -49.2707386719999,-16.7306144834791,0 -49.2703511729999,-16.7311359294791,0 -49.2701647529999,-16.7313349174791,0 -49.2700840409999,-16.7314434494791,0 -49.2692045789999,-16.7316520754791,0 -49.2687630419999,-16.7317670324791,0 -49.2680811419999,-16.7318872144791,0 -49.2675973309999,-16.7319138514791,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>JARDIM BOTÂNICO II</name>
+				<Placemark>
+					<name>JARDIM BOTÂNICO II</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#JARDIM BOTÂNICO II</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52087070014</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">JARDIM BOTÂNICO II</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5208707</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">GOIÂNIA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">170</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">515</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-49.2457962739999,-16.7219130264794,0 -49.2449671369999,-16.7216662264794,0 -49.2451464369999,-16.7211728044794,0 -49.2454485069999,-16.7203303294794,0 -49.2455413329999,-16.7200704564794,0 -49.24564383799989,-16.7197528584794,0 -49.2456740849999,-16.7193327564794,0 -49.2456673629999,-16.7190454064795,0 -49.2456673629999,-16.7188857674795,0 -49.2456219919999,-16.7185648094794,0 -49.2455161269999,-16.7182505734794,0 -49.2454707559999,-16.7180976564795,0 -49.2454068999999,-16.7179413784795,0 -49.2452943129999,-16.7177262854795,0 -49.24517609299989,-16.7175119594795,0 -49.24466018799999,-16.7165704824795,0 -49.2438287669999,-16.7150101444796,0 -49.243707281,-16.7147595794795,0 -49.2433199679999,-16.7140349794796,0 -49.24345450399989,-16.7139279624796,0 -49.2433428519999,-16.7138522454796,0 -49.2438550539999,-16.7135060084796,0 -49.244696577,-16.7128985164796,0 -49.2448699419999,-16.7132951024796,0 -49.2449306849999,-16.7136747464796,0 -49.2450066139999,-16.7140088334796,0 -49.24504457799991,-16.7142062484796,0 -49.2449914279999,-16.7142593984796,0 -49.2450142069999,-16.7143049554796,0 -49.2451812499999,-16.7144188494796,0 -49.2452343999999,-16.7146390424796,0 -49.245272365,-16.7147681214796,0 -49.245189938,-16.7148969984795,0 -49.2452495859999,-16.7149275724796,0 -49.24534829300001,-16.7150262794795,0 -49.2454545939999,-16.7152009164796,0 -49.2456671949999,-16.7155881534795,0 -49.2457810879999,-16.7159374264795,0 -49.2459177599999,-16.7163626274795,0 -49.24611517499989,-16.7166891214795,0 -49.24601646699991,-16.7169017224795,0 -49.24611517499989,-16.7172054374795,0 -49.2462442539999,-16.7174408174795,0 -49.246373333,-16.7176230464795,0 -49.2464340759999,-16.7178432404795,0 -49.24648722599991,-16.7181393624795,0 -49.24660111999991,-16.7183291844795,0 -49.24672260599989,-16.7185873434795,0 -49.2467605699999,-16.7190201374794,0 -49.2467244459999,-16.7192730034795,0 -49.2466998269999,-16.7194453394794,0 -49.2466694549999,-16.7198097974794,0 -49.24660111999991,-16.7200072124794,0 -49.2464568549999,-16.7201590704794,0 -49.2463809259999,-16.7204020424794,0 -49.2463049969999,-16.7204931574794,0 -49.246213882,-16.7207740934794,0 -49.2462062889999,-16.7209715084794,0 -49.2461607319999,-16.7212676314794,0 -49.2459253529999,-16.7214498604794,0 -49.2458190519999,-16.7216093114794,0 -49.24581145899991,-16.7217915404794,0 -49.2457962739999,-16.7219130264794,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>JARDIM GUANABARA I</name>
+				<Placemark>
+					<name>JARDIM GUANABARA I</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#JARDIM GUANABARA I</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52087070018</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">JARDIM GUANABARA I</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5208707</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">GOIÂNIA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">224</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">733</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-49.2168508379999,-16.6104144654825,0 -49.21581851599999,-16.6100984574824,0 -49.2153028959999,-16.6099446924825,0 -49.2153333299999,-16.6098466764825,0 -49.2155825389999,-16.6099126214824,0 -49.2157015569999,-16.6094700324825,0 -49.21581295899999,-16.6090228964825,0 -49.2159296979999,-16.6085825934825,0 -49.21600946899989,-16.6082474794825,0 -49.2153398059999,-16.6079071104825,0 -49.2151740559999,-16.6078335194825,0 -49.21488855899991,-16.6076998514825,0 -49.2147451979999,-16.6076308004825,0 -49.2144892069999,-16.6075103654825,0 -49.21429699699991,-16.6074225284825,0 -49.2142183779999,-16.6073856734825,0 -49.2143846009999,-16.6067822394825,0 -49.2144465399999,-16.6065691014825,0 -49.2145629199999,-16.6065674144825,0 -49.2160505629999,-16.6073162964825,0 -49.2168196849999,-16.6074512304825,0 -49.2174032729999,-16.6079437374825,0 -49.2175460319999,-16.6079358204825,0 -49.2175065899999,-16.6083160004825,0 -49.2174862229999,-16.6084920324825,0 -49.2174528829999,-16.6085504814825,0 -49.2169045399999,-16.6103037684824,0 -49.2168508379999,-16.6104144654825,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>JARDIM BOTÂNICO I</name>
+				<Placemark>
+					<name>JARDIM BOTÂNICO I</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#JARDIM BOTÂNICO I</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52087070024</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">JARDIM BOTÂNICO I</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5208707</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">GOIÂNIA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">67</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">249</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-49.2500444929999,-16.7218029294794,0 -49.2497901309999,-16.7215219934794,0 -49.2496003089999,-16.7213701354794,0 -49.2494598409999,-16.7212524454794,0 -49.2491902929999,-16.7211043844794,0 -49.2489093569999,-16.7209259514794,0 -49.24860943799991,-16.7206564044794,0 -49.2482449789999,-16.7203640784794,0 -49.2480285819999,-16.7201286984794,0 -49.2476489379999,-16.7199160974794,0 -49.2473491439999,-16.7198002764794,0 -49.2472123049999,-16.7195570064794,0 -49.2470602609999,-16.7194556434794,0 -49.2469335579999,-16.7193441454794,0 -49.24676630999989,-16.7192782594795,0 -49.2467244459999,-16.7192730034795,0 -49.2467605699999,-16.7190201374794,0 -49.24672260599989,-16.7185873434795,0 -49.24660111999991,-16.7183291844795,0 -49.24648722599991,-16.7181393624795,0 -49.2464340759999,-16.7178432404795,0 -49.246373333,-16.7176230464795,0 -49.2462442539999,-16.7174408174795,0 -49.24611517499989,-16.7172054374795,0 -49.24601646699991,-16.7169017224795,0 -49.24611517499989,-16.7166891214795,0 -49.2459177599999,-16.7163626274795,0 -49.2457810879999,-16.7159374264795,0 -49.2456671949999,-16.7155881534795,0 -49.2454545939999,-16.7152009164796,0 -49.24534829300001,-16.7150262794795,0 -49.2452495859999,-16.7149275724796,0 -49.245189938,-16.7148969984795,0 -49.245272365,-16.7147681214796,0 -49.2452343999999,-16.7146390424796,0 -49.2451812499999,-16.7144188494796,0 -49.2450142069999,-16.7143049554796,0 -49.2449914279999,-16.7142593984796,0 -49.24504457799991,-16.7142062484796,0 -49.2450066139999,-16.7140088334796,0 -49.2449306849999,-16.7136747464796,0 -49.2448699419999,-16.7132951024796,0 -49.244696577,-16.7128985164796,0 -49.24469547699991,-16.7128958324796,0 -49.24495391199989,-16.7127074714796,0 -49.24520760099989,-16.7125336474796,0 -49.2454659879999,-16.7124443864797,0 -49.2455834359999,-16.7125524394796,0 -49.2456633979999,-16.7129496254796,0 -49.2456823799999,-16.7131888014796,0 -49.24568814999989,-16.7132308384796,0 -49.2457089559999,-16.7133824204796,0 -49.24586461,-16.7141075404796,0 -49.2460240599999,-16.7147301574796,0 -49.24609619299991,-16.7150946154796,0 -49.2463374569999,-16.7162497224795,0 -49.246426718,-16.7166960274795,0 -49.2465745439999,-16.7170953414795,0 -49.2468744629999,-16.7177331434795,0 -49.24704530299989,-16.7180406554795,0 -49.2473730719999,-16.7184850914795,0 -49.2479792279999,-16.7191188444794,0 -49.24830639999989,-16.7193740854795,0 -49.24924533099989,-16.7200485874794,0 -49.2503817529999,-16.7209398354794,0 -49.2500444929999,-16.7218029294794,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>JARDIM GOIÁS ÁREA I</name>
+				<Placemark>
+					<name>JARDIM GOIÁS ÁREA I</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#JARDIM GOIÁS ÁREA I</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52087070027</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">JARDIM GOIÁS ÁREA I</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5208707</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">GOIÂNIA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">160</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">508</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-49.239920616,-16.6965851534801,0 -49.2396441379999,-16.6963686624801,0 -49.2396670679999,-16.6962010804801,0 -49.2399611239999,-16.6957224894801,0 -49.2401392469999,-16.6954099984801,0 -49.2400845259999,-16.6950816684801,0 -49.2400526409999,-16.6950188554801,0 -49.2398846089999,-16.6947938124801,0 -49.2397825899999,-16.6948043144801,0 -49.239552075,-16.6944201384801,0 -49.23935350799991,-16.6940946794801,0 -49.2391839759999,-16.6941651934801,0 -49.2388869199999,-16.6942012004801,0 -49.239237919,-16.6938288424802,0 -49.2395909879999,-16.6933466944802,0 -49.2396858989999,-16.6931796504802,0 -49.2398719249999,-16.6928683424802,0 -49.2400617469999,-16.6927696354802,0 -49.2401937729999,-16.6927897864802,0 -49.2403665119999,-16.6922847904802,0 -49.23986435099991,-16.6921195774802,0 -49.2410599719999,-16.6920304484802,0 -49.24144474399991,-16.6919065394802,0 -49.24201212099991,-16.6916304594802,0 -49.24229785199989,-16.6914294904802,0 -49.2425066559999,-16.6912548544802,0 -49.24273064599989,-16.6909701214802,0 -49.2429660259999,-16.6906056624802,0 -49.2431368659999,-16.6902715754802,0 -49.2432241839999,-16.6900399924802,0 -49.243341874,-16.6895426584803,0 -49.2433874309999,-16.6892882974803,0 -49.2435203059999,-16.6886163264803,0 -49.2437285989999,-16.6875586264803,0 -49.24435297499989,-16.6871607594803,0 -49.24562222399991,-16.6863597224804,0 -49.2455477649999,-16.6864476484804,0 -49.2454217769999,-16.6865567104803,0 -49.245282513,-16.6868083024803,0 -49.2446910649999,-16.6880320974803,0 -49.2440178199999,-16.6893376874802,0 -49.243682299,-16.6899655104802,0 -49.2436016419999,-16.6904684304802,0 -49.24363010899991,-16.6914552924802,0 -49.24369178799991,-16.6924089424802,0 -49.2437866789999,-16.6929735414802,0 -49.2439091229999,-16.6932088424802,0 -49.243953303,-16.6933191844802,0 -49.2428396449999,-16.6940869124801,0 -49.2426077489999,-16.6941158994801,0 -49.2422599049999,-16.6943043154801,0 -49.24206061999989,-16.6945108474801,0 -49.2416249319999,-16.6951300734801,0 -49.2412984379999,-16.6956463894801,0 -49.2414292519999,-16.6958468524801,0 -49.2412305849999,-16.6959582564801,0 -49.24053273199991,-16.6962940974801,0 -49.239920616,-16.6965851534801,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>EMÍLIO PÓVOA</name>
+				<Placemark>
+					<name>EMÍLIO PÓVOA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#EMÍLIO PÓVOA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52087070032</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">EMÍLIO PÓVOA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5208707</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">GOIÂNIA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">109</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">341</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-49.25784853099991,-16.6550886514812,0 -49.257839057,-16.6550645134812,0 -49.2575668279999,-16.6545166534812,0 -49.2583299259999,-16.6541657884812,0 -49.25873417199991,-16.6539853214812,0 -49.25898321599989,-16.6538409484812,0 -49.2592972289999,-16.6535738574813,0 -49.25948852299991,-16.6533753434813,0 -49.2598061449999,-16.6530649404812,0 -49.2601129379999,-16.6527834124813,0 -49.2603800289999,-16.6525271494813,0 -49.2608161269999,-16.6520847144813,0 -49.26090382,-16.6520292234813,0 -49.26097556999991,-16.6519207814813,0 -49.2610946779999,-16.6516717374813,0 -49.261187194,-16.6513020404813,0 -49.2613076289999,-16.6507621844813,0 -49.26136733999989,-16.6505380474813,0 -49.26138904399991,-16.6502189934814,0 -49.26128920399991,-16.6498673824814,0 -49.261231833,-16.6497804454813,0 -49.2611635519999,-16.6496299164813,0 -49.2612547959999,-16.6494881344814,0 -49.2614628299999,-16.6491704674814,0 -49.26172260599991,-16.6487579554814,0 -49.2617752609999,-16.6484817044814,0 -49.26181064299989,-16.6484492994814,0 -49.2617998029999,-16.6484763894814,0 -49.2618058369999,-16.6484981294814,0 -49.26177069799989,-16.6488551594814,0 -49.2618134839999,-16.6492168924814,0 -49.261930172,-16.6496019644814,0 -49.2619651779999,-16.6497886654814,0 -49.2620001849999,-16.6500298214813,0 -49.2620896459999,-16.6502631974814,0 -49.2621674379999,-16.6505354704814,0 -49.2622335609999,-16.6508972034813,0 -49.26243582099989,-16.6511033524813,0 -49.262183751,-16.6518485994813,0 -49.26213743499991,-16.6519735124813,0 -49.262037786,-16.6520843904813,0 -49.2619591889999,-16.6521980754813,0 -49.2618988369999,-16.6522668474813,0 -49.2617416429999,-16.6523847434813,0 -49.26165462499999,-16.6524591294813,0 -49.2614876059999,-16.6525194814813,0 -49.2612981309999,-16.6526865004813,0 -49.26116479699991,-16.6528338694813,0 -49.26103005899989,-16.6529686074813,0 -49.2609949709999,-16.6530303624813,0 -49.2609304089999,-16.6531342224813,0 -49.2609023389999,-16.6531875564812,0 -49.2605205819999,-16.6535665064813,0 -49.26025110599991,-16.6538107184812,0 -49.26002513999989,-16.6539931754812,0 -49.25962373299991,-16.6542486164813,0 -49.2591016249999,-16.6545293204812,0 -49.2586188139999,-16.6547875674812,0 -49.2581360039999,-16.6550065164812,0 -49.25784853099991,-16.6550886514812,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>NOVO GAMA</name>
+			<Folder>
+				<name>VILA UNIÃO</name>
+				<Placemark>
+					<name>VILA UNIÃO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#VILA UNIÃO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52152310005</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">VILA UNIÃO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5215231</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">NOVO GAMA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">133</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">504</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-48.0358823279999,-16.0747559804973,0 -48.0358788619999,-16.0747486954973,0 -48.035395031,-16.0737317624973,0 -48.0353913279999,-16.0737239804973,0 -48.03524932799989,-16.0735259804973,0 -48.0349273279999,-16.0728949804973,0 -48.03497482699991,-16.0728929134973,0 -48.0353313919999,-16.0728773974974,0 -48.0353989339999,-16.0728744584974,0 -48.0361683279999,-16.0728409804974,0 -48.03619031299989,-16.0728429504973,0 -48.0365253279999,-16.0728729804974,0 -48.0366891229999,-16.0728078524973,0 -48.0369404539999,-16.0727079184973,0 -48.0369453279999,-16.0727059804974,0 -48.0366393889999,-16.0722112694973,0 -48.03657770500001,-16.0721115254974,0 -48.0365693279999,-16.0720979804974,0 -48.0365351599999,-16.0720132934974,0 -48.03638369199989,-16.0716378804974,0 -48.0363833279999,-16.0716369804974,0 -48.0367410559999,-16.0717796804974,0 -48.03674932799989,-16.0717829804974,0 -48.0374613279999,-16.0729129804974,0 -48.0380516819999,-16.0736805354973,0 -48.0380743279999,-16.0737099804973,0 -48.0380101249999,-16.0737523834973,0 -48.0379994619999,-16.0737594254973,0 -48.037956215,-16.0738783564973,0 -48.0378490679999,-16.0739601364973,0 -48.0376763279999,-16.0740919804973,0 -48.0376649099999,-16.0740723254973,0 -48.0376398909999,-16.0740292584973,0 -48.037414328,-16.0736409804973,0 -48.03741280999989,-16.0736415584974,0 -48.0373688909999,-16.0736582794973,0 -48.0370624319999,-16.0737749544973,0 -48.0370186569999,-16.0737916214973,0 -48.03699932799989,-16.0737989804973,0 -48.03668832799989,-16.0739919804973,0 -48.0365837849999,-16.0740593994973,0 -48.0364472949999,-16.0741474214973,0 -48.0364433279999,-16.0741499804973,0 -48.0365498699999,-16.0743542664973,0 -48.0365523279999,-16.0743589804973,0 -48.0361953279999,-16.0745829804973,0 -48.0361951019999,-16.0745831044973,0 -48.0358823279999,-16.0747559804973,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>VILA UNIÃO II</name>
+				<Placemark>
+					<name>VILA UNIÃO II</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#VILA UNIÃO II</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52152310006</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">VILA UNIÃO II</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5215231</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">NOVO GAMA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">292</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1103</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-48.0380333279999,-16.0766719804973,0 -48.0380311069999,-16.0766648824972,0 -48.0376193279999,-16.0753489804973,0 -48.0376184649999,-16.0753494654973,0 -48.0369753279999,-16.0757109804973,0 -48.0369699049999,-16.0757141734973,0 -48.0363782809999,-16.0760624754973,0 -48.0363723279999,-16.0760659804973,0 -48.03636912799991,-16.0760609544973,0 -48.0360023279999,-16.0754849804973,0 -48.036005675,-16.0754830744973,0 -48.0366433279999,-16.0751199804973,0 -48.0361953279999,-16.0745829804973,0 -48.0365523279999,-16.0743589804973,0 -48.0365498699999,-16.0743542664973,0 -48.0364433279999,-16.0741499804973,0 -48.0364472949999,-16.0741474214973,0 -48.0365837849999,-16.0740593994973,0 -48.03668832799989,-16.0739919804973,0 -48.03699932799989,-16.0737989804973,0 -48.0370186569999,-16.0737916214973,0 -48.0370624319999,-16.0737749544973,0 -48.0373688909999,-16.0736582794973,0 -48.03741280999989,-16.0736415584974,0 -48.037414328,-16.0736409804973,0 -48.0376398909999,-16.0740292584973,0 -48.0376649099999,-16.0740723254973,0 -48.0376763279999,-16.0740919804973,0 -48.0378490679999,-16.0739601364973,0 -48.037956215,-16.0738783564973,0 -48.0379994619999,-16.0737594254973,0 -48.0380101249999,-16.0737523834973,0 -48.0380743279999,-16.0737099804973,0 -48.03808075999989,-16.0737030284973,0 -48.0381113729999,-16.0736699404973,0 -48.0393059079999,-16.0723788354974,0 -48.03992272699989,-16.0726345894974,0 -48.0402837909999,-16.0728301664974,0 -48.040750166,-16.0731310534973,0 -48.0410660969999,-16.0734018514973,0 -48.0415324719999,-16.0737328274973,0 -48.04193866999989,-16.0739885814973,0 -48.0403345079999,-16.0752809904973,0 -48.0399452929999,-16.0755945654973,0 -48.0393698469999,-16.0760458964972,0 -48.03936685899989,-16.0760447524972,0 -48.03920273899989,-16.0759819414973,0 -48.03906519899991,-16.0759293024973,0 -48.03881207599991,-16.0758927524973,0 -48.0388103599999,-16.0758925054973,0 -48.03879719999991,-16.0759052104972,0 -48.03843333599991,-16.0762565174972,0 -48.038314328,-16.0764469804973,0 -48.03830646599991,-16.0764532754973,0 -48.03828723099991,-16.0764686764972,0 -48.0381222199999,-16.0766008034973,0 -48.0380333279999,-16.0766719804973,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>VALPARAÍSO DE GOIÁS</name>
+			<Folder>
+				<name>VILA GUAÍRA</name>
+				<Placemark>
+					<name>VILA GUAÍRA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#VILA GUAÍRA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">52218580002</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">VILA GUAÍRA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">GO</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5221858</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">VALPARAÍSO DE GOIÁS</SimpleData>
+							<SimpleData name="DPO_EmAGSN">427</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1909</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-48.02012467299989,-16.0517770204979,0 -48.0203211879999,-16.0519617444979,0 -48.02049998399991,-16.0521163784979,0 -48.0205917979999,-16.0522951744979,0 -48.0206119089999,-16.0524261804979,0 -48.0207476749999,-16.0525866304979,0 -48.0209760079999,-16.0528705044979,0 -48.02116731399989,-16.0531050084979,0 -48.0212907369999,-16.0533580264979,0 -48.0214018179999,-16.0535431614979,0 -48.0216163019999,-16.0538635594979,0 -48.0217038469999,-16.0541787194979,0 -48.0216688289999,-16.0543888264978,0 -48.0215812839999,-16.0545814244979,0 -48.0216269219999,-16.0546955174979,0 -48.021721356,-16.0549316024979,0 -48.0217738819999,-16.0551767264979,0 -48.02200149799999,-16.0554043424978,0 -48.02210655099989,-16.0557545204978,0 -48.0220890419999,-16.0561572244978,0 -48.0221415689999,-16.0565249114978,0 -48.02235167599991,-16.0568750894978,0 -48.0228769429999,-16.0571727404978,0 -48.0230870489999,-16.0574703914978,0 -48.02327964699991,-16.0578030604978,0 -48.02361231599989,-16.0580131674978,0 -48.02383332699989,-16.0582341784978,0 -48.0240500379999,-16.0584508894977,0 -48.0242601449999,-16.0588360854977,0 -48.0244055249999,-16.0591140344977,0 -48.02436061799991,-16.0594732894977,0 -48.0242782889999,-16.0597427314977,0 -48.02414356799989,-16.0600645634977,0 -48.0240013629999,-16.0603414894977,0 -48.0238591579999,-16.0606184154977,0 -48.02375437500001,-16.0609252784977,0 -48.0238317249999,-16.0611898974977,0 -48.0224039999999,-16.0611855364977,0 -48.0222219999999,-16.0612805364977,0 -48.02162899999991,-16.0612075364977,0 -48.02162899999991,-16.0605925364977,0 -48.0216249999999,-16.0598525364977,0 -48.0216249999999,-16.0591675364978,0 -48.0216749999999,-16.0588155364977,0 -48.0214129999999,-16.0584435364978,0 -48.02089,-16.0577595364978,0 -48.0205389999999,-16.0572395364978,0 -48.0198249999999,-16.0560425364978,0 -48.0189929999999,-16.0547395364979,0 -48.01886799999989,-16.0545605364979,0 -48.018233,-16.0534385364979,0 -48.0178049999999,-16.0527025364979,0 -48.0178016069999,-16.0526978074979,0 -48.0175409999999,-16.0523345364979,0 -48.0166313629999,-16.0509908634979,0 -48.0165999999999,-16.0509445364979,0 -48.0160410429999,-16.050262003498,0 -48.0184205539999,-16.050261996498,0 -48.018446309,-16.050261996498,0 -48.0185187309999,-16.050313921498,0 -48.0186588679999,-16.050463723498,0 -48.0188086699999,-16.050637687498,0 -48.0189874659999,-16.050772992498,0 -48.0191421009999,-16.050797153498,0 -48.0193063999999,-16.0509034654979,0 -48.0194465369999,-16.0510629314979,0 -48.0197074829999,-16.051343206498,0 -48.0197219799999,-16.051517170498,0 -48.0198814469999,-16.0516379784979,0 -48.0200795719999,-16.0517346254979,0 -48.02012467299989,-16.0517770204979,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Nomes Aglomerados Subnormais</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>NOVO PARAÍSO II</name>
+			<visibility>0</visibility>
+			<styleUrl>#NOVO PARAÍSO II_LABELS</styleUrl>
+			<Point>
+				<coordinates>-48.98055599999999,-16.34968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NOVO PARAÍSO I</name>
+			<visibility>0</visibility>
+			<styleUrl>#NOVO PARAÍSO I_LABELS</styleUrl>
+			<Point>
+				<coordinates>-48.983555,-16.352797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>QUEBRA CAIXOTE</name>
+			<visibility>0</visibility>
+			<styleUrl>#QUEBRA CAIXOTE_LABELS</styleUrl>
+			<Point>
+				<coordinates>-49.231851,-16.677552,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCINHA</name>
+			<visibility>0</visibility>
+			<styleUrl>#ROCINHA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-49.269022,-16.730129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JARDIM BOTÂNICO II</name>
+			<visibility>0</visibility>
+			<styleUrl>#JARDIM BOTÂNICO II_LABELS</styleUrl>
+			<Point>
+				<coordinates>-49.24504,-16.721576,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JARDIM GUANABARA I</name>
+			<visibility>0</visibility>
+			<styleUrl>#JARDIM GUANABARA I_LABELS</styleUrl>
+			<Point>
+				<coordinates>-49.215882,-16.60944,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JARDIM BOTÂNICO I</name>
+			<visibility>0</visibility>
+			<styleUrl>#JARDIM BOTÂNICO I_LABELS</styleUrl>
+			<Point>
+				<coordinates>-49.24753900000001,-16.719265,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JARDIM GOIÁS ÁREA I</name>
+			<visibility>0</visibility>
+			<styleUrl>#JARDIM GOIÁS ÁREA I_LABELS</styleUrl>
+			<Point>
+				<coordinates>-49.242254,-16.692884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EMÍLIO PÓVOA</name>
+			<visibility>0</visibility>
+			<styleUrl>#EMÍLIO PÓVOA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-49.260001,-16.653446,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VILA UNIÃO</name>
+			<visibility>0</visibility>
+			<styleUrl>#VILA UNIÃO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-48.0365,-16.074321,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VILA UNIÃO II</name>
+			<visibility>0</visibility>
+			<styleUrl>#VILA UNIÃO II_LABELS</styleUrl>
+			<Point>
+				<coordinates>-48.038971,-16.074328,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VILA GUAÍRA</name>
+			<visibility>0</visibility>
+			<styleUrl>#VILA GUAÍRA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-48.02022300000001,-16.054289,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

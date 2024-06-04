@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Roraima</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<description>Exported from CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz on 6/12/2011</description>
+	<Schema name="CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz" id="CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+		<SimpleField type="string" name="CodAGSN_BogOut2011">
+			<displayName>CodAGSN_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="NomeAGSN_BogOut2011">
+			<displayName>NomeAGSN_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="SiglaUF_CGEO">
+			<displayName>SiglaUF_CGEO</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="CodMun_BogOut2011">
+			<displayName>CodMun_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="NomeMun_BogOut2011">
+			<displayName>NomeMun_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="DPO_EmAGSN">
+			<displayName>DPO_EmAGSN</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="PopEmDPO_EmAGSN">
+			<displayName>PopEmDPO_EmAGSN</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="MONTE DAS OLIVEIRAS_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="SEM DENOMINAÇÃO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2d2fcd5</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="SEM DENOMINAÇÃO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="MONTE DAS OLIVEIRAS">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2c0c9fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>Aglomerados Subnormais em RR</name>
+		<Folder>
+			<name>MONTE DAS OLIVEIRAS</name>
+			<Folder>
+				<name>BOA VISTA</name>
+				<Placemark>
+					<name>MONTE DAS OLIVEIRAS</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#MONTE DAS OLIVEIRAS</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">14001000001</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">MONTE DAS OLIVEIRAS</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">RR</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1400100</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">BOA VISTA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">105</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">388</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-60.6972909369999,2.82723363890695,0 -60.69440661999991,2.828794860906919,0 -60.69164894299989,2.83029111190686,0 -60.6861718959999,2.83339945490677,0 -60.685187434,2.83396656890673,0 -60.688228422,2.83955156290655,0 -60.6764639699999,2.8454387499064,0 -60.673649366,2.84676502090633,0 -60.6708479909999,2.84814420990627,0 -60.6656355149999,2.85074052590618,0 -60.6654996509999,2.85123123990618,0 -60.6693478049999,2.85831561390594,0 -60.6702149959999,2.85988793390592,0 -60.67579787599991,2.87001035690557,0 -60.6789782099999,2.869253134905601,0 -60.6812498769999,2.86824350490563,0 -60.6824614329999,2.86531557790575,0 -60.6830167299999,2.86430594790573,0 -60.6838778869999,2.86519102590571,0 -60.6848340639999,2.86617376290569,0 -60.686499953,2.86688050390566,0 -60.6900841389999,2.86667857790568,0 -60.6926082139999,2.86854639390563,0 -60.6961419189999,2.86975794990558,0 -60.6968442439999,2.8694143969056,0 -60.6967705159999,2.86863013890561,0 -60.6965935689999,2.86674793190568,0 -60.6978078079999,2.86218572490584,0 -60.69873536199991,2.85872691890593,0 -60.6988194799999,2.85847209290593,0 -60.7025601619999,2.85270992190616,0 -60.700990815,2.850110100906201,0 -60.70067395299991,2.84980611490626,0 -60.7028026719999,2.84575358990637,0 -60.7025943429999,2.84586384690639,0 -60.6995924229999,2.84745260690634,0 -60.700071062,2.84852954590628,0 -60.6956137329999,2.85074325290621,0 -60.6940581549999,2.84769192690632,0 -60.695179966,2.84707866990635,0 -60.6947312419999,2.84612139090634,0 -60.6958231379999,2.8455530069064,0 -60.6950154339999,2.8439675139064,0 -60.7023162849999,2.84029706590654,0 -60.7007298359999,2.83610526790666,0 -60.6989014519999,2.83129017690686,0 -60.6980860789999,2.82914287190694,0 -60.6972909369999,2.82723363890695,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>SEM DENOMINAÇÃO</name>
+				<Placemark>
+					<name>SEM DENOMINAÇÃO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#SEM DENOMINAÇÃO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">14001000002</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">SEM DENOMINAÇÃO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">RR</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1400100</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">BOA VISTA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">65</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">237</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-60.7038555189999,2.78143908290848,0 -60.7022024319999,2.78332285890842,0 -60.70223640899991,2.78339760790843,0 -60.7024578199999,2.78388471190842,0 -60.7026280789999,2.78470195290839,0 -60.7032069579999,2.78522975490833,0 -60.7037007069999,2.78582565990833,0 -60.70426256099991,2.78630238390832,0 -60.7047733359999,2.7868131599083,0 -60.7052752839999,2.7870948389083,0 -60.7060753959999,2.7876786339083,0 -60.7069823639999,2.78830412790824,0 -60.7077642319999,2.78886707290823,0 -60.70831154,2.78907035890821,0 -60.7087806599999,2.78897653490824,0 -60.7094530669999,2.78972712890822,0 -60.7101567489999,2.79002423790819,0 -60.7110168039999,2.7903213479082,0 -60.711677989,2.7905547319082,0 -60.7118899479999,2.79059005790819,0 -60.7121548959999,2.79087855790819,0 -60.7124080689999,2.79106696590817,0 -60.7130380579999,2.79110229190816,0 -60.7133374409999,2.79105890590814,0 -60.7136934519999,2.79103079890815,0 -60.7141806249999,2.79101206190815,0 -60.714827065,2.79101206190815,0 -60.7151924449999,2.79098395590815,0 -60.7154641369999,2.79097458690815,0 -60.7160582129999,2.79102826790815,0 -60.7166869909999,2.79106332090818,0 -60.717526061,2.79128032090813,0 -60.71824939699991,2.79154072190817,0 -60.7190305999999,2.79193132390814,0 -60.7196382029999,2.79245212590811,0 -60.7199834879999,2.79287953990809,0 -60.7202897579999,2.79321544890808,0 -60.7213267169999,2.78977968490818,0 -60.72132604299991,2.78977944890823,0 -60.72255072499989,2.78592130090835,0 -60.7210218739999,2.78538500190834,0 -60.7196611159999,2.78537699790834,0 -60.7172454199999,2.78455499190835,0 -60.7126652219999,2.7829996749084,0 -60.71224863799999,2.78420111190838,0 -60.7120320489999,2.78486934990836,0 -60.7110723349999,2.7876982899083,0 -60.7079885169999,2.78507567490838,0 -60.7061533499999,2.78349075790843,0 -60.70393937499991,2.78151395590849,0 -60.7038555189999,2.78143908290848,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>SEM DENOMINAÇÃO</name>
+				<Placemark>
+					<name>SEM DENOMINAÇÃO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#SEM DENOMINAÇÃO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">14001000003</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">SEM DENOMINAÇÃO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">RR</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1400100</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">BOA VISTA</SimpleData>
+							<SimpleData name="DPO_EmAGSN">133</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">532</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-60.7213267169999,2.78977968490818,0 -60.7202897579999,2.79321544890808,0 -60.7206296839999,2.79358826990806,0 -60.7210257389999,2.79440122590803,0 -60.72163024399989,2.79494319690804,0 -60.72269333999991,2.79475559090804,0 -60.7237772809999,2.79506826690805,0 -60.7244112129999,2.79481560190806,0 -60.7248174499999,2.7931114239081,0 -60.7254574389999,2.79122892990814,0 -60.7213267169999,2.78977968490818,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Nomes Aglomerados Subnormais</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>MONTE DAS OLIVEIRAS</name>
+			<visibility>0</visibility>
+			<styleUrl>#MONTE DAS OLIVEIRAS_LABELS</styleUrl>
+			<Point>
+				<coordinates>-60.68415099999999,2.853532,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEM DENOMINAÇÃO</name>
+			<visibility>0</visibility>
+			<styleUrl>#SEM DENOMINAÇÃO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-60.712376,2.78743900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEM DENOMINAÇÃO</name>
+			<visibility>0</visibility>
+			<styleUrl>#SEM DENOMINAÇÃO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-60.722873,2.79256599999999,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

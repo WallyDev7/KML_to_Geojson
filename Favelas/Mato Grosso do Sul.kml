@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mato Grosso do Sul</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<description>Exported from CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz on 6/12/2011</description>
+	<Schema name="CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz" id="CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+		<SimpleField type="string" name="CodAGSN_BogOut2011">
+			<displayName>CodAGSN_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="NomeAGSN_BogOut2011">
+			<displayName>NomeAGSN_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="SiglaUF_CGEO">
+			<displayName>SiglaUF_CGEO</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="CodMun_BogOut2011">
+			<displayName>CodMun_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="NomeMun_BogOut2011">
+			<displayName>NomeMun_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="DPO_EmAGSN">
+			<displayName>DPO_EmAGSN</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="PopEmDPO_EmAGSN">
+			<displayName>PopEmDPO_EmAGSN</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="LOTEAMENTO PANTANAL_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="VULCANO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="JATOBÁ_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="HAVAÍ_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="ALTA TENSÃO-MORENINHAS_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="ALTA TENSÃO-MORENINHAS">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2bbe7fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="LOTEAMENTO PANTANAL">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcfcb3</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="DOM ANTONIO (CIDADE DE DEUS)_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="TIRADENTES">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2b3fcb6</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="VILA NOSSA SENHORA APARECIDA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="HAVAÍ">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcddd2</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="VILA NOSSA SENHORA APARECIDA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2cafcde</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="JATOBÁ">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2f3b3fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="VULCANO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcb3bb</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="TIRADENTES_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="DOM ANTONIO (CIDADE DE DEUS)">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2c9b6fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>Aglomerados Subnormais no Mato Grosso do Sul</name>
+		<Folder>
+			<name>CAMPO GRANDE</name>
+			<Folder>
+				<name>VILA NOSSA SENHORA APARECIDA</name>
+				<Placemark>
+					<name>VILA NOSSA SENHORA APARECIDA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#VILA NOSSA SENHORA APARECIDA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+							<SimpleData name="CodAGSN_BogOut2011">50027040073</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">VILA NOSSA SENHORA APARECIDA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">MS</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5002704</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CAMPO GRANDE</SimpleData>
+							<SimpleData name="DPO_EmAGSN">129</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">469</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-54.6339912269999,-20.4248771953822,0 -54.63211995299991,-20.4248372033822,0 -54.6321115339999,-20.4240711153822,0 -54.6308571709999,-20.4241047893822,0 -54.62940918099991,-20.4242479043822,0 -54.6292071349999,-20.4242815793822,0 -54.6289904249999,-20.4243068743822,0 -54.6283444849999,-20.4244549363822,0 -54.6278724849999,-20.4245926963822,0 -54.6278926089999,-20.4239881133822,0 -54.6279305819999,-20.4233501703822,0 -54.6293659529999,-20.4233235893822,0 -54.63082980899991,-20.4233119313822,0 -54.6321184349999,-20.4232793903822,0 -54.6320832899999,-20.4226292033823,0 -54.6330043649999,-20.4226163663823,0 -54.6336193909999,-20.4225675543823,0 -54.6336777229999,-20.4225292873823,0 -54.63429633799991,-20.4223316743823,0 -54.6346374339999,-20.4234771583822,0 -54.63409043899989,-20.4236049393822,0 -54.63435637999989,-20.4247101543822,0 -54.63398466099991,-20.4247909013822,0 -54.6339912269999,-20.4248771953822,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>DOM ANTONIO (CIDADE DE DEUS)</name>
+				<Placemark>
+					<name>DOM ANTONIO (CIDADE DE DEUS)</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#DOM ANTONIO (CIDADE DE DEUS)</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+							<SimpleData name="CodAGSN_BogOut2011">50027040084</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">DOM ANTONIO (CIDADE DE DEUS)</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">MS</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5002704</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CAMPO GRANDE</SimpleData>
+							<SimpleData name="DPO_EmAGSN">164</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">492</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-54.65455356099991,-20.5623583913788,0 -54.6517436369999,-20.5590384203789,0 -54.6537582619999,-20.5583082243789,0 -54.6559466419999,-20.5604105433788,0 -54.65588500099991,-20.5612242013788,0 -54.65455356099991,-20.5623583913788,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>ALTA TENSÃO-MORENINHAS</name>
+				<Placemark>
+					<name>ALTA TENSÃO-MORENINHAS</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#ALTA TENSÃO-MORENINHAS</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+							<SimpleData name="CodAGSN_BogOut2011">50027040085</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">ALTA TENSÃO-MORENINHAS</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">MS</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5002704</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CAMPO GRANDE</SimpleData>
+							<SimpleData name="DPO_EmAGSN">170</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">521</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-54.5923989379999,-20.5488322813791,0 -54.5869833009999,-20.5475014943792,0 -54.5832392029999,-20.5464969803792,0 -54.5781823869999,-20.5451538223792,0 -54.5772803839999,-20.5449922993792,0 -54.5760256799999,-20.5429522143793,0 -54.57473969899991,-20.5436623753792,0 -54.57305878999989,-20.5406749143793,0 -54.5698156689999,-20.5255761133797,0 -54.57322874499991,-20.5332718463795,0 -54.58396856699991,-20.5363403123794,0 -54.5860105789999,-20.5366483743794,0 -54.5918751539999,-20.5345713673795,0 -54.5950811429999,-20.5346217693795,0 -54.5960568269999,-20.5346459503795,0 -54.5962960189999,-20.5346503853795,0 -54.5943190209999,-20.5417008303793,0 -54.5940605969999,-20.5426224323793,0 -54.5931474699999,-20.5459341043792,0 -54.59308608199991,-20.5461717873792,0 -54.59297152099991,-20.5466153453792,0 -54.59292693299991,-20.5467879813792,0 -54.5923989379999,-20.5488322813791,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>CORUMBÁ</name>
+			<Folder>
+				<name>JATOBÁ</name>
+				<Placemark>
+					<name>JATOBÁ</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#JATOBÁ</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+							<SimpleData name="CodAGSN_BogOut2011">50032070001</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">JATOBÁ</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">MS</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5003207</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CORUMBÁ</SimpleData>
+							<SimpleData name="DPO_EmAGSN">76</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">280</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.6745747399999,-19.0353680344175,0 -57.6637739359999,-19.0315534764176,0 -57.6649405839999,-19.0288010814177,0 -57.6654615759999,-19.0290312984177,0 -57.66557363699989,-19.0289675504177,0 -57.66567396999989,-19.0289009454177,0 -57.6658641269999,-19.0283760314177,0 -57.6658601659999,-19.0282472794177,0 -57.66591562799989,-19.0280690064177,0 -57.6660463609999,-19.0278511174177,0 -57.6660997059999,-19.0276274444177,0 -57.6654964079999,-19.0274444354177,0 -57.6669428839999,-19.0278596334177,0 -57.6682935249999,-19.0283002764177,0 -57.67446670399989,-19.0306140884177,0 -57.6745225609999,-19.0331171224176,0 -57.6745747399999,-19.0353680344175,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>HAVAÍ</name>
+				<Placemark>
+					<name>HAVAÍ</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#HAVAÍ</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+							<SimpleData name="CodAGSN_BogOut2011">50032070006</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">HAVAÍ</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">MS</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5003207</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CORUMBÁ</SimpleData>
+							<SimpleData name="DPO_EmAGSN">605</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">2513</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.6640625979999,-18.9940421824186,0 -57.6645457939999,-18.9941206134186,0 -57.6661530619999,-18.9945396544186,0 -57.6661562459999,-18.9945405394186,0 -57.6672910949999,-18.9948764384186,0 -57.6672952359999,-18.9948775994186,0 -57.66804706399991,-18.9950770794186,0 -57.6680484639999,-18.9950774794186,0 -57.66805084099991,-18.9950782904186,0 -57.66805373299989,-18.9950794854186,0 -57.66843438399989,-18.9952600864186,0 -57.6684368479999,-18.9952613224186,0 -57.6684391349999,-18.9952625974186,0 -57.66936583299989,-18.9958058194186,0 -57.66936867399991,-18.9958074424186,0 -57.67057305899991,-18.9964779674185,0 -57.67057465799989,-18.9964789024185,0 -57.67057660499989,-18.9964801864185,0 -57.6705782249999,-18.9964814114185,0 -57.67058021899991,-18.9964831094185,0 -57.6709516259999,-18.9968165134185,0 -57.6709572819999,-18.9968213314185,0 -57.6709647429999,-18.9968269734185,0 -57.67097257699991,-18.9968321384185,0 -57.6709729179999,-18.9968323474185,0 -57.6713906669999,-18.9970874034185,0 -57.6713918629999,-18.9970881504185,0 -57.6720013149999,-18.9974759844185,0 -57.6720032869999,-18.9974772184185,0 -57.6720077879999,-18.9974798734185,0 -57.6727886679999,-18.9979221474185,0 -57.67297002599989,-18.9981553014185,0 -57.6735066489999,-18.9991599374185,0 -57.6735530369999,-18.9992467804185,0 -57.6735545569999,-18.9992498594185,0 -57.6735551919999,-18.9992513914185,0 -57.6735556749999,-18.9992528254185,0 -57.67355605899989,-18.9992542874185,0 -57.6735563409999,-18.9992557694185,0 -57.6735566109999,-18.9992580144185,0 -57.6735567209999,-18.9992597804185,0 -57.6736782139999,-19.0023492354184,0 -57.67268946799991,-19.0017144854184,0 -57.6712590979999,-19.0009430494184,0 -57.6697483699999,-19.0019234154184,0 -57.6692662229999,-19.0018912724184,0 -57.66730549099989,-19.0001876854185,0 -57.6665340559999,-18.9998019684185,0 -57.6655536899999,-18.9993680354185,0 -57.6653286879999,-18.9996091094185,0 -57.6655054749999,-19.0000912564184,0 -57.6655697609999,-19.0005412604184,0 -57.6660197649999,-19.0012644814184,0 -57.66667869999989,-19.0019394874184,0 -57.6670644179999,-19.0022287754184,0 -57.66732057999991,-19.0028039694184,0 -57.6673367539999,-19.0028260784184,0 -57.6671414799999,-19.0032419054184,0 -57.6668233419999,-19.0037979554184,0 -57.66680524899991,-19.0038144324184,0 -57.6652947029999,-19.0033602084184,0 -57.6655950299999,-19.0025980934184,0 -57.6652891279999,-19.0024162534184,0 -57.66490259199991,-19.0021528214184,0 -57.6646879899999,-19.0020415524184,0 -57.6642108829999,-19.0018960494184,0 -57.6638211589999,-19.0028844764184,0 -57.6623042519999,-19.0024063974184,0 -57.66074786899991,-19.0019436884184,0 -57.6610986919999,-19.0009448034184,0 -57.6606961149999,-19.0008088134184,0 -57.6596540919999,-19.0004594464184,0 -57.66003211899991,-18.9994242274185,0 -57.6591642649999,-18.9986445534185,0 -57.65937760199989,-18.9981646194185,0 -57.6592166679999,-18.9980837094185,0 -57.6586056119999,-18.9979025484185,0 -57.6576902539999,-18.9979414554185,0 -57.6556695079999,-18.9979863264185,0 -57.6554241479999,-18.9979870774185,0 -57.6554246469999,-18.9979867724185,0 -57.6554323069999,-18.9979813764185,0 -57.6554395799999,-18.9979755164185,0 -57.6554464339999,-18.9979692164185,0 -57.6554528409999,-18.9979625034185,0 -57.6554587719999,-18.9979554064185,0 -57.6554642029999,-18.9979479554185,0 -57.65546910899991,-18.9979401824185,0 -57.6554734709999,-18.9979321204185,0 -57.6554772689999,-18.9979238044185,0 -57.6554797539999,-18.9979173774185,0 -57.6558165399999,-18.9969749984185,0 -57.6561387829999,-18.9959399694186,0 -57.6569621469999,-18.9959345544186,0 -57.6573263619999,-18.9958794874186,0 -57.6573267479999,-18.9958794284186,0 -57.6579175019999,-18.9957885594186,0 -57.6579182379999,-18.9957884494186,0 -57.6583345989999,-18.9957275184186,0 -57.6583350039999,-18.9957274604186,0 -57.6586830979999,-18.9956779504186,0 -57.6586921979999,-18.9956763734186,0 -57.6587006729999,-18.9956743844186,0 -57.6589662729999,-18.9956039514186,0 -57.6589670459999,-18.9956037444186,0 -57.6589761229999,-18.9956009774186,0 -57.65898498999991,-18.9955976514186,0 -57.6589912449999,-18.9955949084186,0 -57.6592265859999,-18.9954852224186,0 -57.6592289499999,-18.9954840954186,0 -57.6592372849999,-18.9954796974186,0 -57.6592452999999,-18.9954747904186,0 -57.6592470279999,-18.9954736364186,0 -57.6594646619999,-18.9953261104186,0 -57.65947059299991,-18.9953218694186,0 -57.6594716609999,-18.9953210564186,0 -57.6598138349999,-18.9950581254186,0 -57.65982003899989,-18.9950530774186,0 -57.65982027799991,-18.9950528724186,0 -57.66002911499991,-18.9948723004186,0 -57.6600320199999,-18.9948699594186,0 -57.6600332919999,-18.9948690624186,0 -57.6600346239999,-18.9948682474186,0 -57.6600372399999,-18.9948668674186,0 -57.66003743699991,-18.9948667744186,0 -57.6613544239999,-18.9942663574186,0 -57.6613562849999,-18.9942655514186,0 -57.6613591949999,-18.9942644294186,0 -57.6620158109999,-18.9940282794186,0 -57.6620188439999,-18.9940273544186,0 -57.66202183399991,-18.9940266444186,0 -57.66234899699991,-18.9939674674186,0 -57.6623507299999,-18.9939671894186,0 -57.6623552209999,-18.9939666944186,0 -57.66291319899991,-18.9939217954186,0 -57.6629191699999,-18.9939215164186,0 -57.6632830219999,-18.9939156434186,0 -57.6640625979999,-18.9940421824186,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>VULCANO</name>
+				<Placemark>
+					<name>VULCANO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#VULCANO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+							<SimpleData name="CodAGSN_BogOut2011">50032070007</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">VULCANO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">MS</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5003207</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CORUMBÁ</SimpleData>
+							<SimpleData name="DPO_EmAGSN">254</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1009</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.6462840069999,-19.0005356964184,0 -57.6447683169999,-19.0000544594184,0 -57.6452865719999,-18.9987176894185,0 -57.6446202439999,-18.9985629334185,0 -57.6437695709999,-18.9982538894185,0 -57.64435103199991,-18.9964791554185,0 -57.6446311099999,-18.9957393554186,0 -57.6465277109999,-18.9963531504186,0 -57.64775063099989,-18.9966963044185,0 -57.6473440799999,-18.9977319724185,0 -57.6462840069999,-19.0005356964184,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>TIRADENTES</name>
+				<Placemark>
+					<name>TIRADENTES</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#TIRADENTES</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+							<SimpleData name="CodAGSN_BogOut2011">50032070008</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">TIRADENTES</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">MS</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5003207</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CORUMBÁ</SimpleData>
+							<SimpleData name="DPO_EmAGSN">174</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">766</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.6742257049999,-19.0207792524179,0 -57.6678724769999,-19.018826718418,0 -57.6681105539999,-19.018214819418,0 -57.6683162559999,-19.017672987418,0 -57.6683626869999,-19.017538041418,0 -57.6684185729999,-19.017488898418,0 -57.6684758859999,-19.017452465418,0 -57.6685090709999,-19.017372609418,0 -57.6688678549999,-19.016514359418,0 -57.6697804359999,-19.016366026418,0 -57.6704995009999,-19.016238857418,0 -57.67050366599991,-19.016238125418,0 -57.6705041899999,-19.016238025418,0 -57.6705088829999,-19.016236923418,0 -57.6705120539999,-19.016236080418,0 -57.67158980999989,-19.015949788418,0 -57.6738725469999,-19.0150510294181,0 -57.6738724799999,-19.0150555944181,0 -57.6740565779999,-19.018021246418,0 -57.6742165209999,-19.0205977724179,0 -57.6742257049999,-19.0207792524179,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>LOTEAMENTO PANTANAL</name>
+				<Placemark>
+					<name>LOTEAMENTO PANTANAL</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#LOTEAMENTO PANTANAL</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema0">
+							<SimpleData name="CodAGSN_BogOut2011">50032070009</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">LOTEAMENTO PANTANAL</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">MS</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">5003207</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CORUMBÁ</SimpleData>
+							<SimpleData name="DPO_EmAGSN">307</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1199</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.6407467569999,-19.0606680954169,0 -57.64025893899989,-19.0605152244169,0 -57.63123004199991,-19.056925949417,0 -57.6319383799999,-19.0492510414172,0 -57.6326433319999,-19.0381475424175,0 -57.6347017869999,-19.0410006194174,0 -57.6366682429999,-19.0451342194173,0 -57.6378881849999,-19.0452838344173,0 -57.6364547209999,-19.0478675594172,0 -57.6395950619999,-19.0487733604172,0 -57.6411348939999,-19.0492840584172,0 -57.64155505899991,-19.0494225664172,0 -57.64219033699991,-19.0496531544172,0 -57.6442149129999,-19.0502672114171,0 -57.6407467569999,-19.0606680954169,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Nomes Aglomerados Subnormais</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>VILA NOSSA SENHORA APARECIDA</name>
+			<visibility>0</visibility>
+			<styleUrl>#VILA NOSSA SENHORA APARECIDA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-54.631254,-20.423697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DOM ANTONIO (CIDADE DE DEUS)</name>
+			<visibility>0</visibility>
+			<styleUrl>#DOM ANTONIO (CIDADE DE DEUS)_LABELS</styleUrl>
+			<Point>
+				<coordinates>-54.653845,-20.559955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALTA TENSÃO-MORENINHAS</name>
+			<visibility>0</visibility>
+			<styleUrl>#ALTA TENSÃO-MORENINHAS_LABELS</styleUrl>
+			<Point>
+				<coordinates>-54.583056,-20.541263,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JATOBÁ</name>
+			<visibility>0</visibility>
+			<styleUrl>#JATOBÁ_LABELS</styleUrl>
+			<Point>
+				<coordinates>-57.66917400000001,-19.031044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HAVAÍ</name>
+			<visibility>0</visibility>
+			<styleUrl>#HAVAÍ_LABELS</styleUrl>
+			<Point>
+				<coordinates>-57.66455100000001,-18.99806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VULCANO</name>
+			<visibility>0</visibility>
+			<styleUrl>#VULCANO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-57.64576,-18.998236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TIRADENTES</name>
+			<visibility>0</visibility>
+			<styleUrl>#TIRADENTES_LABELS</styleUrl>
+			<Point>
+				<coordinates>-57.671049,-19.017948,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOTEAMENTO PANTANAL</name>
+			<visibility>0</visibility>
+			<styleUrl>#LOTEAMENTO PANTANAL_LABELS</styleUrl>
+			<Point>
+				<coordinates>-57.637722,-19.053869,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

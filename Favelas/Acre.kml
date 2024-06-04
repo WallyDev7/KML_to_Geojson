@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Acre</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<description>Exported from CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz on 6/12/2011</description>
+	<Schema name="CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz" id="CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+		<SimpleField type="string" name="CodAGSN_BogOut2011">
+			<displayName>CodAGSN_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="NomeAGSN_BogOut2011">
+			<displayName>NomeAGSN_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="SiglaUF_CGEO">
+			<displayName>SiglaUF_CGEO</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="CodMun_BogOut2011">
+			<displayName>CodMun_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="NomeMun_BogOut2011">
+			<displayName>NomeMun_BogOut2011</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="DPO_EmAGSN">
+			<displayName>DPO_EmAGSN</displayName>
+		</SimpleField>
+		<SimpleField type="double" name="PopEmDPO_EmAGSN">
+			<displayName>PopEmDPO_EmAGSN</displayName>
+		</SimpleField>
+	</Schema>
+	<Style id="BAIXADA DA HABITASA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="PRAIA DO AMAPA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="AEROPORTO VELHO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="RAMAL DA JUDIA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="TRIÂNGULO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="TAQUARI_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="PREVENTÓRIO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="BAIXADA DA CADEIA VELHA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="AYRTON SENNA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="CRUZEIRINHO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="BAIXA CEMITÉRIO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="TRIÂNGULO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2b3fcbb</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="PISTA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2c2dafc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="PRAIA DO AMAPA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2b3bdfc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="BAIXADA DA HABITASA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcbbc8</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="BAIXADA DA CADEIA VELHA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcfbc7</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="SEIS DE AGOSTO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2b8fcdc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="LAGOA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="CIDADE NOVA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="CIDADE NOVA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2bdf4fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="PREVENTÓRIO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2dfd7fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="AYRTON SENNA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcdbc7</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="PISTA_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="DOM GIOCONDO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2d5b8fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="TAQUARI">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2d7fce6</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="DOM GIOCONDO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="RAMAL DA JUDIA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2dafcc5</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="BAIXA CEMITÉRIO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2f4d2fc</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="CRUZEIRINHO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcb8e0</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="SEIS DE AGOSTO_LABELS">
+		<IconStyle>
+			<color>00000000</color>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="AEROPORTO VELHO">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcb3f8</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="LAGOA">
+		<LineStyle>
+			<color>b2ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b2fcc8c0</color>
+		</PolyStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div style="font-size:14px; text-align:center; font-weight: bold;"> $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeAGSN_BogOut2011] 
+<br><br></div>
+<div style="font-size:12px;">
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;">--- ESTRUTURA TERRITORIAL --- </span>
+Unidade da Federação = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/SiglaUF_CGEO] <br>
+Nome do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/NomeMun_BogOut2011] <br>
+Cód. do município = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodMun_BogOut2011] <br>
+Cód. aglom. subnormal = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/CodAGSN_BogOut2011] <br>
+<br>
+<span style="display:block;font-size:12px;background-color:#ddd;text-align:center;padding: 4px;font-weight:bold;"> ----DADOS CENSO DEMOGRÁFICO 2010 ---- </span>
+Domic. partic. ocupados = $[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/DPO_EmAGSN]<br>
+População* =$[CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz/PopEmDPO_EmAGSN]<br>
+<br>
+<br>
+------------- <br>
+<div style="font-size: 9px;"font-style: italic";"font-size: 9px";>* População residente em domicílios particulares ocupados<br>
+FONTE: IBGE, Censo Demográfico 2010.</span>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>Aglomerados Subnormais no AC</name>
+		<Folder>
+			<name>CRUZEIRO DO SUL</name>
+			<Folder>
+				<name>LAGOA</name>
+				<Placemark>
+					<name>LAGOA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#LAGOA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12002030001</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">LAGOA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200203</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CRUZEIRO DO SUL</SimpleData>
+							<SimpleData name="DPO_EmAGSN">252</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1080</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-72.67347943999989,-7.6413684427509,0 -72.67341127499991,-7.64134867575093,0 -72.6733772659999,-7.64133010875089,0 -72.6733428909999,-7.64131159875093,0 -72.6732688529999,-7.641274579750941,0 -72.67322125699989,-7.64122698375094,0 -72.67317894999989,-7.64120583075091,0 -72.67312077699999,-7.64117938775094,0 -72.67302558499991,-7.64111063875091,0 -72.6729356819999,-7.641052465750889,0 -72.6728880859999,-7.640994292750939,0 -72.6728404899999,-7.640946696750941,0 -72.6728219809999,-7.64092818775091,0 -72.67280347099999,-7.64090967775095,0 -72.6727505869999,-7.64088852475092,0 -72.6726924139999,-7.64088323575092,0 -72.6726236639999,-7.64088323575092,0 -72.6725760679999,-7.640867370750949,0 -72.6725231839999,-7.640835639750909,0 -72.6724755879999,-7.64080390975093,0 -72.6724227039999,-7.6407774667509,0 -72.6723222239999,-7.640740447750919,0 -72.6722693389999,-7.64072458275095,0 -72.6722005899999,-7.64072458275095,0 -72.67212126299999,-7.640735159750909,0 -72.6719890519999,-7.640735159750909,0 -72.6720366479999,-7.640740447750919,0 -72.67191501399989,-7.64074573675092,0 -72.67181453399991,-7.64075631375093,0 -72.67170876499991,-7.640740447750919,0 -72.6716241509999,-7.64071929475094,0 -72.67155540099991,-7.64069285275091,0 -72.67150251699989,-7.640661121750929,0 -72.6714337669999,-7.64062410275094,0 -72.6713597289999,-7.640597660750961,0 -72.67129626799991,-7.64057121875093,0 -72.6712116529999,-7.640544775750961,0 -72.67113761499991,-7.640491891750949,0 -72.67107944200001,-7.64042843075093,0 -72.67102655799989,-7.640364969750959,0 -72.6709260769999,-7.64033323875093,0 -72.67086261599989,-7.64031208475096,0 -72.67077271299991,-7.64030150775095,0 -72.6706880979999,-7.64030150775095,0 -72.6705981949999,-7.64027506575097,0 -72.67051357999991,-7.640238046750929,0 -72.67044482999999,-7.64022218175096,0 -72.6703707919999,-7.64019573975093,0 -72.67029146499991,-7.64017987475096,0 -72.6702227159999,-7.640137566750969,0 -72.67013810099991,-7.64009525975097,0 -72.67005755299991,-7.64007717075094,0 -72.6699688709999,-7.64006352875094,0 -72.6699054099999,-7.64007939375096,0 -72.6698313719999,-7.64009525975097,0 -72.6697308919999,-7.640089970750969,0 -72.66961454599991,-7.64007939375096,0 -72.6695193539999,-7.64005295175093,0 -72.6694347389999,-7.64003179775096,0 -72.6693607009999,-7.64000006775097,0 -72.66928666299989,-7.639963048750979,0 -72.6692232019999,-7.63993131775095,0 -72.6691597409999,-7.63989429875096,0 -72.6690751259999,-7.63984141475095,0 -72.6689482029999,-7.639783241750941,0 -72.6688900309999,-7.63973564575093,0 -72.66881070399999,-7.639703915750951,0 -72.6686890699999,-7.63965103075095,0 -72.6686256089999,-7.63962987675098,0 -72.6685515709999,-7.63961930075096,0 -72.6684722439999,-7.63959285775099,0 -72.66835061099989,-7.63959814675099,0 -72.6682289769999,-7.63959814675099,0 -72.6681126309999,-7.63960872375095,0 -72.66800950699989,-7.63962194475096,0 -72.6679063819999,-7.639635165750979,0 -72.66722450899989,-7.640002084750961,0 -72.6665237159999,-7.63962248775096,0 -72.6671481559999,-7.63913185675099,0 -72.66834215999999,-7.638603029751019,0 -72.6686960399999,-7.63846001975098,0 -72.6695009999999,-7.63791596975103,0 -72.6696208799999,-7.63779095975105,0 -72.6702429599999,-7.638137009751,0 -72.6706439999999,-7.638355979750989,0 -72.67120199999989,-7.637444999751059,0 -72.6721131599999,-7.638002999751,0 -72.67309883999989,-7.63857098975102,0 -72.6736989599999,-7.63764902975102,0 -72.67483403999999,-7.638305039750999,0 -72.6751270799999,-7.63848998975099,0 -72.6745669199999,-7.639358039750979,0 -72.67347943999989,-7.6413684427509,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>CRUZEIRINHO</name>
+				<Placemark>
+					<name>CRUZEIRINHO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#CRUZEIRINHO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12002030002</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">CRUZEIRINHO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200203</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CRUZEIRO DO SUL</SimpleData>
+							<SimpleData name="DPO_EmAGSN">240</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1035</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-72.6819894789999,-7.643844758750829,0 -72.6819630369999,-7.64381831575081,0 -72.68194188299989,-7.64376543175086,0 -72.6819101529999,-7.643701970750831,0 -72.68188370999989,-7.64365437475083,0 -72.6818625569999,-7.64362793275086,0 -72.6818149609999,-7.643596201750819,0 -72.6817726529999,-7.64356975975084,0 -72.68174092300001,-7.64352745275084,0 -72.6817144809999,-7.64348514475085,0 -72.6817144809999,-7.64343226075084,0 -72.6816668849999,-7.64336351075088,0 -72.6816563079999,-7.643305337750861,0 -72.6816721729999,-7.643226011750879,0 -72.6816880379999,-7.64315726175085,0 -72.68169332699991,-7.64309380075083,0 -72.6817091919999,-7.64305678175084,0 -72.68172505699989,-7.64304091675088,0 -72.68174092300001,-7.64298803175087,0 -72.6817144809999,-7.64292985975085,0 -72.6816721729999,-7.64290341675089,0 -72.68162457699989,-7.64294043675087,0 -72.6815505389999,-7.64298274375086,0 -72.6814870779999,-7.64303562775088,0 -72.6814394819999,-7.64308851275087,0 -72.68137073199991,-7.643146684750839,0 -72.6813442899999,-7.643194280750839,0 -72.68136544399989,-7.643241876750839,0 -72.6813918859999,-7.64331062675086,0 -72.6813865979999,-7.643421683750829,0 -72.68137073199991,-7.643453414750869,0 -72.6813548669999,-7.64348514475085,0 -72.6813125599999,-7.64352745275084,0 -72.6812332329999,-7.643580336750851,0 -72.6811803489999,-7.64360677875083,0 -72.6811380409999,-7.64360149075082,0 -72.6811327529999,-7.64355918275083,0 -72.681153907,-7.64351687575083,0 -72.68115919499991,-7.64348514475085,0 -72.68115919499991,-7.64341639475083,0 -72.68114861799999,-7.64333178075083,0 -72.68111159899991,-7.64323658875083,0 -72.6810904459999,-7.643178415750879,0 -72.6810798689999,-7.643077935750871,0 -72.6810904459999,-7.64303033975086,0 -72.6811221759999,-7.643025050750859,0 -72.6811433299999,-7.64300918575084,0 -72.6811909259999,-7.64299332075088,0 -72.6812543869999,-7.64297745575085,0 -72.6812914059999,-7.642956301750891,0 -72.6813125599999,-7.642898128750869,0 -72.6813125599999,-7.64285053275088,0 -72.6812914059999,-7.64281351375089,0 -72.6812490989999,-7.642771206750879,0 -72.6811803489999,-7.642771206750879,0 -72.68111159899991,-7.64276591775089,0 -72.6810375609999,-7.64276591775088,0 -72.6809793879999,-7.64276062975088,0 -72.6809212159999,-7.64275534075087,0 -72.6808630429999,-7.64273947575085,0 -72.68079958199991,-7.64273947575085,0 -72.6807096779999,-7.64275005275086,0 -72.68063563999991,-7.64277649475084,0 -72.6805404479999,-7.64281351375089,0 -72.68047169899999,-7.642845244750869,0 -72.6803870839999,-7.642845244750861,0 -72.6803289109999,-7.64285053275088,0 -72.6802601619999,-7.64287697475085,0 -72.68020727699989,-7.642892840750859,0 -72.680154393,-7.64291928275084,0 -72.68011737399991,-7.64299860875088,0 -72.68015968099991,-7.64310966575085,0 -72.68014910399999,-7.64321014675085,0 -72.6800856429999,-7.64325774175086,0 -72.6800221819999,-7.64325774175086,0 -72.6799692979999,-7.64323129975083,0 -72.6799375669999,-7.64316783875086,0 -72.67990583699989,-7.64312024275086,0 -72.67984237499989,-7.64313610875088,0 -72.6797630489999,-7.64314139675083,0 -72.6796784339999,-7.64317312775087,0 -72.6795673769999,-7.64323129975083,0 -72.6794510309999,-7.643294761750839,0 -72.6793981469999,-7.643294761750839,0 -72.6793399739999,-7.64331062675086,0 -72.6792606479999,-7.64331591475088,0 -72.67917603299991,-7.643352933750869,0 -72.6790702639999,-7.64335822275086,0 -72.6789909379999,-7.64334764575086,0 -72.6789221879999,-7.643368799750821,0 -72.6788269959999,-7.64336351075088,0 -72.6787635349999,-7.643352933750869,0 -72.6787212279999,-7.64331591475088,0 -72.6786577659999,-7.643278895750831,0 -72.6786154589999,-7.64325245375085,0 -72.6785519979999,-7.64321014675085,0 -72.67848853699989,-7.64316255075085,0 -72.6784144979999,-7.643146684750839,0 -72.6783193069999,-7.64312024275086,0 -72.6782505569999,-7.64309380075083,0 -72.67817123099989,-7.64310437775084,0 -72.67806546200001,-7.64313610875088,0 -72.6779755589999,-7.64316255075085,0 -72.67785392499989,-7.643151973750841,0 -72.6777798859999,-7.64314139675083,0 -72.6777111369999,-7.64311495475085,0 -72.6776529639999,-7.64306206975085,0 -72.6775630609999,-7.64303562775087,0 -72.6774943109999,-7.643003897750891,0 -72.67738325399991,-7.64298803175088,0 -72.6772986389999,-7.64298803175088,0 -72.6772404659999,-7.642966878750841,0 -72.67715585099999,-7.642945724750869,0 -72.67711354399999,-7.64292985975085,0 -72.6770447939999,-7.642940436750859,0 -72.6769443139999,-7.64294043675087,0 -72.6768226799999,-7.64293514775086,0 -72.6767327769999,-7.64288226375085,0 -72.6765794119999,-7.64291928275084,0 -72.6764736439999,-7.64295101275089,0 -72.67637845199989,-7.64299332075087,0 -72.6762197989999,-7.64299860875088,0 -72.67611402999999,-7.643025050750859,0 -72.6759765309999,-7.64305149375083,0 -72.67584960799989,-7.64303033975086,0 -72.6758046569999,-7.643003897750891,0 -72.6757821809999,-7.64299067675087,0 -72.6757597049999,-7.64297745575085,0 -72.67573295999991,-7.64297578375086,0 -72.6768669599999,-7.641186029750901,0 -72.6775840009999,-7.64005500375094,0 -72.6781522189999,-7.64037794675094,0 -72.6789489139999,-7.64083096975091,0 -72.67954252999991,-7.64117464175094,0 -72.67982371699991,-7.64134647775092,0 -72.6801127139999,-7.641487070750889,0 -72.6801986319999,-7.64150269275092,0 -72.6803079819999,-7.64150269275092,0 -72.6803782789999,-7.64150269275092,0 -72.6804563859999,-7.641533935750891,0 -72.6805266829999,-7.64154174675088,0 -72.6807844369999,-7.64154955675088,0 -72.6811359199999,-7.64154955675088,0 -72.6812608919999,-7.641557367750919,0 -72.6815307099999,-7.64114200875089,0 -72.68172953599991,-7.64123712775093,0 -72.6822762879999,-7.64149488175093,0 -72.6824246919999,-7.6415807997509,0 -72.6824871779999,-7.64160423175088,0 -72.68255747399991,-7.64161204275092,0 -72.6826121499999,-7.64161204275092,0 -72.68264339299991,-7.641557367750919,0 -72.6827761749999,-7.641385531750941,0 -72.6829714439999,-7.641112155750891,0 -72.6831276579999,-7.64090126575095,0 -72.6832760619999,-7.64069818675094,0 -72.68369231599991,-7.640075437750959,0 -72.6838649999999,-7.639815999750969,0 -72.6849050399999,-7.640403029750971,0 -72.6855929999999,-7.64084303975093,0 -72.6863738399999,-7.64134298975092,0 -72.68678814399991,-7.64166509475092,0 -72.68675024299991,-7.64171984075091,0 -72.68671234199989,-7.641774585750911,0 -72.6865860069999,-7.64182231275089,0 -72.68653827999989,-7.64185880975088,0 -72.68646949799999,-7.641863020750909,0 -72.68640071499991,-7.64186723175089,0 -72.6862463049999,-7.641912150750889,0 -72.6861938909999,-7.64188433975089,0 -72.68618570699989,-7.6418799967509,0 -72.6861775229999,-7.64187565375089,0 -72.68610873999999,-7.641839156750899,0 -72.68599924899991,-7.64185880975088,0 -72.68594590799999,-7.64193461075091,0 -72.68590660299991,-7.6420890207509,0 -72.68571850399989,-7.64224062275086,0 -72.6855865539999,-7.64226308275088,0 -72.6855079449999,-7.64229957975088,0 -72.68539564700001,-7.64236976575089,0 -72.68523281499991,-7.642563479750861,0 -72.6850699819999,-7.642757194750879,0 -72.68485942299991,-7.64287791475086,0 -72.6846544789999,-7.64288072275083,0 -72.68452533599989,-7.64281334375086,0 -72.68442988300001,-7.642729119750891,0 -72.68433723699989,-7.642636473750849,0 -72.68428108799991,-7.642557864750899,0 -72.6841856339999,-7.64255505775085,0 -72.6840480689999,-7.64255505775085,0 -72.6839301559999,-7.64255224975088,0 -72.6837701309999,-7.64253821275085,0 -72.6835764169999,-7.64242872275086,0 -72.68347815599989,-7.642490486750859,0 -72.6833405909999,-7.64251575375087,0 -72.6832675969999,-7.642563479750861,0 -72.6833069019999,-7.642647703750891,0 -72.68337428,-7.64274877175088,0 -72.6833321689999,-7.642838610750879,0 -72.6832310999999,-7.642931256750859,0 -72.68311599499989,-7.642889144750839,0 -72.6831328399999,-7.64279369075089,0 -72.68307388299991,-7.642776846750871,0 -72.6830177339999,-7.64274315675086,0 -72.68297000699989,-7.64262243675088,0 -72.682958777,-7.64256067275087,0 -72.6828717459999,-7.6425662877509,0 -72.6828099819999,-7.6426112067509,0 -72.6828577089999,-7.6426112067509,0 -72.6828801689999,-7.64264208875087,0 -72.68283562799991,-7.64266014975086,0 -72.6827721669999,-7.642676014750889,0 -72.68268226399989,-7.642697168750861,0 -72.6826082259999,-7.64271303375087,0 -72.6825659179999,-7.642718321750879,0 -72.6824971689999,-7.64272361075089,0 -72.6824495729999,-7.64276062975088,0 -72.68241784200001,-7.64278707175085,0 -72.6823861119999,-7.64283466775085,0 -72.68237024599991,-7.64288755175086,0 -72.6823543809999,-7.64292985975085,0 -72.68237024599991,-7.64297745575085,0 -72.68242313099999,-7.64298274375086,0 -72.6824813029999,-7.64299332075088,0 -72.6825394759999,-7.64300918575084,0 -72.6826029369999,-7.643146684750839,0 -72.6825712069999,-7.64327360775088,0 -72.6825394759999,-7.643368799750821,0 -72.68246543799999,-7.643453414750869,0 -72.68241784200001,-7.64349572175087,0 -72.68236495799989,-7.64348514475085,0 -72.6822803429999,-7.64347456775084,0 -72.6822274589999,-7.64346399075083,0 -72.6821904399999,-7.64344812575087,0 -72.6821375549999,-7.643453414750869,0 -72.6820846709999,-7.64352745275084,0 -72.68205293999991,-7.64361735575084,0 -72.6820264979999,-7.64376543175086,0 -72.68204236299989,-7.643828892750821,0 -72.6819894789999,-7.643844758750829,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>BAIXA CEMITÉRIO</name>
+				<Placemark>
+					<name>BAIXA CEMITÉRIO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#BAIXA CEMITÉRIO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12002030003</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">BAIXA CEMITÉRIO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200203</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">CRUZEIRO DO SUL</SimpleData>
+							<SimpleData name="DPO_EmAGSN">255</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1008</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-72.67573295999991,-7.64297578375086,0 -72.6756750899999,-7.642972166750851,0 -72.6756722329999,-7.64297060775086,0 -72.6756169169999,-7.642940436750859,0 -72.67553759099989,-7.642908705750891,0 -72.6754212449999,-7.64288755175086,0 -72.67534191899991,-7.64283466775085,0 -72.67528903499991,-7.642771206750879,0 -72.6752625919999,-7.64269716875085,0 -72.67523086199991,-7.642644283750849,0 -72.6751938429999,-7.642596687750851,0 -72.6751568239999,-7.64251207275086,0 -72.6751039389999,-7.64245918875085,0 -72.6750457669999,-7.64242745875086,0 -72.6749770169999,-7.642422169750861,0 -72.67491355599989,-7.64241159275085,0 -72.67485538299989,-7.64238515075087,0 -72.67481307599989,-7.6423587087509,0 -72.67474961400001,-7.64235870875089,0 -72.6746914419999,-7.64234813175089,0 -72.67463855699989,-7.64232697775086,0 -72.67460682699991,-7.642289958750869,0 -72.6745803849999,-7.64225293975089,0 -72.67453807699989,-7.64220534375088,0 -72.6745063459999,-7.6421736137509,0 -72.6744534619999,-7.6421207287509,0 -72.6744111549999,-7.642067844750889,0 -72.6744058659999,-7.64202553775088,0 -72.67437942399989,-7.6419885187509,0 -72.6743265399999,-7.64195149975091,0 -72.6743000979999,-7.64190919175092,0 -72.6742525019999,-7.64185630775091,0 -72.6742154829999,-7.64181928875092,0 -72.67413086799991,-7.64176640375092,0 -72.6740568299999,-7.64171351975091,0 -72.6740039449999,-7.64168178875093,0 -72.6739193299999,-7.64165534675089,0 -72.67387173499991,-7.64160775075089,0 -72.67379769599999,-7.64157602075091,0 -72.67369721599989,-7.641512559750881,0 -72.67359673599989,-7.6414755407509,0 -72.6735438519999,-7.64140150275092,0 -72.6734876359999,-7.64137083875091,0 -72.67347943999989,-7.6413684427509,0 -72.6745669199999,-7.639358039750979,0 -72.6751270799999,-7.63848998975099,0 -72.67483403999999,-7.638305039750999,0 -72.6736989599999,-7.63764902975102,0 -72.67309883999989,-7.63857098975102,0 -72.6721131599999,-7.638002999751,0 -72.67120199999989,-7.637444999751059,0 -72.6717949199999,-7.63645499975109,0 -72.6724101599999,-7.635446999751111,0 -72.67303403999991,-7.63446401975114,0 -72.6739739999999,-7.63502201975113,0 -72.67499495999991,-7.63564202975109,0 -72.6755961599999,-7.63463195975111,0 -72.67654404,-7.63521299975108,0 -72.6774638399999,-7.63580303975108,0 -72.6768590399999,-7.63675802975108,0 -72.67640795999991,-7.63789697975102,0 -72.6759634079999,-7.63862177275102,0 -72.67580099999989,-7.638910999751,0 -72.67666715999989,-7.639460999750971,0 -72.6775840009999,-7.64005500375094,0 -72.6768669599999,-7.641186029750901,0 -72.67573295999991,-7.64297578375086,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>RIO BRANCO</name>
+			<Folder>
+				<name>AYRTON SENNA</name>
+				<Placemark>
+					<name>AYRTON SENNA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#AYRTON SENNA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010001</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">AYRTON SENNA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">718</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">2881</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.8284075439999,-10.0048614576767,0 -67.82724071999991,-10.0041142806767,0 -67.8258801149999,-10.0032430156767,0 -67.82350787899991,-10.0015137216768,0 -67.82075874499991,-9.999540553676811,0 -67.8199162689999,-9.99891978167684,0 -67.8181648049999,-9.9973235106769,0 -67.8169342399999,-9.99615551667693,0 -67.8168619869999,-9.99608030967692,0 -67.81759783699989,-9.99584762867693,0 -67.8185018569999,-9.99554299867698,0 -67.81852270099991,-9.995537619676959,0 -67.8192600769999,-9.995347328676941,0 -67.8199679589999,-9.995198300677,0 -67.8201895079999,-9.995151659676949,0 -67.8204026629999,-9.99513768167699,0 -67.8209643909999,-9.995104865676939,0 -67.8218037819999,-9.995061977676951,0 -67.8228606889999,-9.99518038567699,0 -67.8235921199999,-9.995262029676971,0 -67.82376863099999,-9.995282105676971,0 -67.8242559599999,-9.995750009676961,0 -67.8249629999999,-9.996395039676919,0 -67.8259221739999,-9.997203506676909,0 -67.8259310399999,-9.9972109796769,0 -67.8263248799999,-9.99763199967691,0 -67.8259130399999,-9.998078039676891,0 -67.82549399999991,-9.998630009676869,0 -67.8250119599999,-9.99825200967687,0 -67.82462495999989,-9.9979540196769,0 -67.8242059199999,-9.99841301967686,0 -67.8239740799999,-9.99873602967685,0 -67.8236738399999,-9.999133019676851,0 -67.8232619999999,-9.999734039676801,0 -67.8240680399999,-10.0003670096768,0 -67.82493203999989,-10.0010680196768,0 -67.8252380399999,-10.0008700196768,0 -67.8253870799999,-10.0007289896768,0 -67.8255379199999,-10.0005929996768,0 -67.8257809199999,-10.0008909896768,0 -67.8260969999999,-10.0013069696768,0 -67.8264631199999,-10.0009050296768,0 -67.8268760399999,-10.0012319996768,0 -67.8273067409999,-10.0016415366768,0 -67.82825021399989,-10.0024317046767,0 -67.828726608,-10.0028051536767,0 -67.8294751669999,-10.0033049976767,0 -67.8292261199999,-10.0037069996767,0 -67.8292012199999,-10.0037399546767,0 -67.8286716299999,-10.0044408526767,0 -67.8284075439999,-10.0048614576767,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>DOM GIOCONDO</name>
+				<Placemark>
+					<name>DOM GIOCONDO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#DOM GIOCONDO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010002</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">DOM GIOCONDO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">123</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">466</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.8173770419999,-9.975637330677561,0 -67.8169199139999,-9.97540428867757,0 -67.81600130299999,-9.975034102677579,0 -67.814986717,-9.974828442677589,0 -67.8140543949999,-9.974814732677631,0 -67.813533392,-9.975061523677621,0 -67.81321804699991,-9.975486552677591,0 -67.81267571399989,-9.975207477677619,0 -67.8116282349999,-9.97474345467762,0 -67.8119018399999,-9.97410698967763,0 -67.8122629199999,-9.973325969677621,0 -67.8127510799999,-9.973595969677611,0 -67.8130210799999,-9.973674989677651,0 -67.8134710799999,-9.973754999677629,0 -67.81370507999991,-9.973727009677649,0 -67.8143030399999,-9.97264997967765,0 -67.8156546279999,-9.97320318567764,0 -67.8168528179999,-9.973689118677621,0 -67.81708912799991,-9.973689118677621,0 -67.8178513099999,-9.973579284677619,0 -67.81864669799999,-9.97390258067764,0 -67.8175757329999,-9.97531502667756,0 -67.8173770419999,-9.975637330677561,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>PREVENTÓRIO</name>
+				<Placemark>
+					<name>PREVENTÓRIO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#PREVENTÓRIO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010004</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">PREVENTÓRIO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">441</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1722</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.8229480799999,-9.97553096967756,0 -67.82301287999989,-9.975590999677591,0 -67.82420807999991,-9.976739039677531,0 -67.82482404,-9.977237009677539,0 -67.8243268799999,-9.977846039677489,0 -67.8236180399999,-9.978274979677479,0 -67.823896783,-9.97915579667745,0 -67.8240747289999,-9.97984353367745,0 -67.8235809599999,-9.97988696967745,0 -67.8226618799999,-9.97987895967746,0 -67.82250707999989,-9.979808039677421,0 -67.82129901799991,-9.97977604467745,0 -67.82092456699991,-9.97977660867746,0 -67.8207177229999,-9.978979994677459,0 -67.8206448719999,-9.978734949677481,0 -67.82003557099991,-9.97805941967748,0 -67.81894184699991,-9.97673344967753,0 -67.81869994499991,-9.976446190677541,0 -67.81832953200001,-9.976204288677581,0 -67.8185440159999,-9.97603037267759,0 -67.8186653529999,-9.975930800677579,0 -67.81890491999989,-9.97574498967759,0 -67.8191129999999,-9.97555895967759,0 -67.81961303999989,-9.97502696967759,0 -67.8201569999999,-9.97454897967763,0 -67.82024303999989,-9.974601989677611,0 -67.8202250399999,-9.974166029677621,0 -67.82007096,-9.973927979677621,0 -67.8203009999999,-9.973428029677629,0 -67.82088383999989,-9.973709999677631,0 -67.82182487999999,-9.97425899967765,0 -67.8229480799999,-9.97553096967756,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>BAIXADA DA CADEIA VELHA</name>
+				<Placemark>
+					<name>BAIXADA DA CADEIA VELHA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#BAIXADA DA CADEIA VELHA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010005</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">BAIXADA DA CADEIA VELHA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">1120</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">4150</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.7995896919999,-9.97492441767761,0 -67.7970258069999,-9.97459536267761,0 -67.79406431299989,-9.973717882677651,0 -67.79303086499991,-9.973439336677661,0 -67.7905543949999,-9.972771850677679,0 -67.789588583,-9.972281455677649,0 -67.78826277499989,-9.971296569677721,0 -67.78712636899991,-9.970046522677769,0 -67.7858005609999,-9.96853131367782,0 -67.78432323199991,-9.966713062677851,0 -67.7829216629999,-9.964970571677879,0 -67.7816716159999,-9.963000800677939,0 -67.7811743639999,-9.962286767678011,0 -67.7808323789999,-9.96178569167799,0 -67.78040252299991,-9.961155867678031,0 -67.7802192209999,-9.960880914678009,0 -67.7800784419999,-9.96066974667805,0 -67.7800359189999,-9.96060596167804,0 -67.7790721059999,-9.95948841167807,0 -67.77840933499991,-9.958758536678101,0 -67.7778325079999,-9.958093932678111,0 -67.7776318729999,-9.957955995678139,0 -67.7779219589999,-9.95748825667811,0 -67.77832721599989,-9.957356388678139,0 -67.7787165579999,-9.95722969967813,0 -67.7790648819999,-9.957371205678159,0 -67.7792063889999,-9.957665103678149,0 -67.7793261249999,-9.958024312678139,0 -67.77945674599989,-9.958361751678099,0 -67.77982751099999,-9.9585866856781,0 -67.78031667099989,-9.95856856867808,0 -67.7805043969999,-9.9584828506781,0 -67.7807603169999,-9.958365994678131,0 -67.7809462019999,-9.958281117678119,0 -67.7810817699999,-9.958219215678101,0 -67.7816632699999,-9.958111029678131,0 -67.7816915589999,-9.958105766678131,0 -67.7820474049999,-9.95832909667811,0 -67.7823155279999,-9.958673011678069,0 -67.7831644149999,-9.95924551667809,0 -67.7841448949999,-9.959906769678049,0 -67.78492485699989,-9.959920951678081,0 -67.7859317169999,-9.959538060678071,0 -67.7859600799999,-9.958488656678091,0 -67.7856480949999,-9.957382528678121,0 -67.78502412500001,-9.95661674767816,0 -67.7849106759999,-9.956077864678189,0 -67.78514005699989,-9.95579750967817,0 -67.78514342999991,-9.955801381678199,0 -67.7870798399999,-9.958023989678139,0 -67.7871871199999,-9.9583869596781,0 -67.78738890699989,-9.9586179526781,0 -67.7875678649999,-9.95878254367808,0 -67.78778904000001,-9.959075999678079,0 -67.78804787999989,-9.959367959678101,0 -67.7883790799999,-9.959564969678061,0 -67.7886411599999,-9.959658029678099,0 -67.78885391999999,-9.95972903967809,0 -67.78905587999991,-9.95993900967804,0 -67.7896268399999,-9.96045200967804,0 -67.7901340799999,-9.960881039678039,0 -67.7907235939999,-9.96136229767801,0 -67.7907086619999,-9.961378630678031,0 -67.7903991079999,-9.961581107677979,0 -67.7897762849999,-9.961949344678001,0 -67.78924553899989,-9.96225174667798,0 -67.78875182099991,-9.96250477667798,0 -67.7867597659999,-9.96350566367793,0 -67.7864595769999,-9.963656489677961,0 -67.7862267399999,-9.963756587677921,0 -67.7873530799999,-9.964396979677939,0 -67.78995191999989,-9.96624899967788,0 -67.7921601599999,-9.967274999677819,0 -67.7930749199999,-9.96770501967781,0 -67.7928668399999,-9.967839029677821,0 -67.79257200000001,-9.96825599967781,0 -67.7923769999999,-9.968620999677791,0 -67.7922343659999,-9.96893768367776,0 -67.7922148799999,-9.96897599967779,0 -67.7919819599999,-9.969485039677769,0 -67.7917861199999,-9.96997499967774,0 -67.7915661599999,-9.970388009677711,0 -67.7912479199999,-9.97087400967772,0 -67.7923140499999,-9.971372427677711,0 -67.7923750799999,-9.9714009596777,0 -67.7928711599999,-9.9716010296777,0 -67.79509092000001,-9.97238996967768,0 -67.7955538799999,-9.972537029677691,0 -67.7957849999999,-9.97268795967765,0 -67.7959365599999,-9.972894464677641,0 -67.79608811999989,-9.973100969677629,0 -67.7972879999999,-9.973512989677671,0 -67.7973062999999,-9.973517836677621,0 -67.79823191999991,-9.97376300967762,0 -67.7995649999999,-9.97382996967764,0 -67.7995654949999,-9.973874814677631,0 -67.7995706559999,-9.974342038677589,0 -67.7995896919999,-9.97492441767761,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>TAQUARI</name>
+				<Placemark>
+					<name>TAQUARI</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#TAQUARI</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010006</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">TAQUARI</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">1997</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">7285</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.8226611599999,-10.0060460096766,0 -67.8235778389999,-10.0068563136766,0 -67.8247300799999,-10.0075940096766,0 -67.8250699199999,-10.0077270296766,0 -67.82490299999991,-10.0081809996766,0 -67.82304084399991,-10.0101534246765,0 -67.82324321899991,-10.0104112116765,0 -67.82233957699989,-10.0112883546765,0 -67.8213529999999,-10.0122459996765,0 -67.8213409999999,-10.0123209996764,0 -67.8213724999999,-10.0123729996764,0 -67.8214039999999,-10.0124249996765,0 -67.8214878779999,-10.0125411676764,0 -67.8216299999999,-10.0127379996764,0 -67.8216668779999,-10.0127826866764,0 -67.82196999999989,-10.0131499996764,0 -67.82216699999989,-10.0138399996764,0 -67.8222383959999,-10.0141025516764,0 -67.82241499999991,-10.0147519996764,0 -67.8224436199999,-10.0149560696763,0 -67.8224609999999,-10.0150799996764,0 -67.82275899999991,-10.0155839996763,0 -67.8227922799999,-10.0156214396763,0 -67.82289039999991,-10.0157318246763,0 -67.82303527799991,-10.0158948126763,0 -67.8231989999999,-10.0160789996763,0 -67.8234469999999,-10.0163909996763,0 -67.8234988599999,-10.0164467306763,0 -67.8237013859999,-10.0166643756763,0 -67.8228819679999,-10.0171589136763,0 -67.8218382199999,-10.0177888416763,0 -67.8209547999999,-10.0183220066763,0 -67.8204865259999,-10.0176085716763,0 -67.82021677099991,-10.0172010676763,0 -67.8201271219999,-10.0170656406763,0 -67.8201175249999,-10.0170409036763,0 -67.8200936419999,-10.0169793376763,0 -67.81995506599991,-10.0166221196763,0 -67.8198433729999,-10.0163358466763,0 -67.81950007499999,-10.0154559656763,0 -67.81930013499991,-10.0149320726764,0 -67.8191980219999,-10.0146645106764,0 -67.8188509999999,-10.0133579996764,0 -67.8188609999999,-10.0119319996765,0 -67.81881765599989,-10.0119103276765,0 -67.81867880599989,-10.0118409026765,0 -67.81864299999999,-10.0118229996765,0 -67.8183388729999,-10.0117400556765,0 -67.8179719999999,-10.0116399996765,0 -67.81775352999991,-10.0116186646765,0 -67.8174599999999,-10.0115899996765,0 -67.8173509999999,-10.0115899996765,0 -67.81724199999989,-10.0115899996765,0 -67.8169819999999,-10.0117649996764,0 -67.8169595009999,-10.0117874336764,0 -67.81610143899989,-10.0126430076764,0 -67.8152988289999,-10.0134432896764,0 -67.8137529329999,-10.0149847026763,0 -67.81249905599989,-10.0162349436763,0 -67.8122161199999,-10.0155689996763,0 -67.8117128399999,-10.0150029896763,0 -67.8127241049999,-10.0136922656764,0 -67.81275287999991,-10.0136549696764,0 -67.8150691199999,-10.0121399996764,0 -67.8184160399999,-10.0069170296766,0 -67.81797216,-10.0064580296766,0 -67.8175300799999,-10.0060239596766,0 -67.8170318399999,-10.0054520096767,0 -67.81702299999991,-10.0054429996767,0 -67.8167088539999,-10.0057478036767,0 -67.8164478229999,-10.0052931766767,0 -67.8160299599999,-10.0056879896767,0 -67.81538807999991,-10.0049390096767,0 -67.81578983999989,-10.0045709996767,0 -67.8162139199999,-10.0041699596767,0 -67.8166049809999,-10.0038520906767,0 -67.8166149599999,-10.0038439796767,0 -67.81707899999989,-10.0034620196767,0 -67.81644503999991,-10.0027089896767,0 -67.8168269999999,-10.0023630296767,0 -67.8172420799999,-10.0019850296768,0 -67.8169148399999,-10.0012730396768,0 -67.8165368399999,-10.0004550296768,0 -67.81581611999989,-9.999549989676829,0 -67.8147879599999,-9.99895103967687,0 -67.8138609599999,-9.99855098967689,0 -67.81071383999991,-9.997610039676889,0 -67.81025699999989,-9.9973189796769,0 -67.8098541599999,-9.99700397967691,0 -67.80822191999989,-9.996561989676909,0 -67.80845807999989,-9.99558197967696,0 -67.80844691999989,-9.99544202967696,0 -67.8083968799999,-9.99524303967697,0 -67.8084181199999,-9.995153039676969,0 -67.8084829199999,-9.99504296967697,0 -67.80861612,-9.99483596967699,0 -67.8089329199999,-9.99447497967701,0 -67.8092428799999,-9.99423602967698,0 -67.8094149599999,-9.99404999967703,0 -67.8095841599999,-9.993875039677,0 -67.8097141199999,-9.993756959677009,0 -67.8099369599999,-9.993479039677039,0 -67.81006583999989,-9.993264029677009,0 -67.81016016,-9.993160979677009,0 -67.8104398799999,-9.99294803967704,0 -67.81081895999991,-9.99316700967702,0 -67.8126814419999,-9.99201219867707,0 -67.8129972119999,-9.991818107677039,0 -67.8131205079999,-9.99197766767708,0 -67.8131464059999,-9.99201118267707,0 -67.81402244099991,-9.993019949677009,0 -67.8148614109999,-9.993997945676989,0 -67.8168619869999,-9.99608030967692,0 -67.8169342399999,-9.99615551667693,0 -67.8181648049999,-9.9973235106769,0 -67.8199162689999,-9.99891978167684,0 -67.82075874499991,-9.999540553676811,0 -67.82350787899991,-10.0015137216768,0 -67.8258801149999,-10.0032430156767,0 -67.82724071999991,-10.0041142806767,0 -67.8270217659999,-10.0043764626767,0 -67.82655491999989,-10.0052330396767,0 -67.8259508399999,-10.0049159696767,0 -67.8255992239999,-10.0054714926767,0 -67.8252329999999,-10.0052330396767,0 -67.82433099799989,-10.0052859866766,0 -67.82412599999989,-10.0052980196767,0 -67.82349203999991,-10.0053420296767,0 -67.8226611599999,-10.0060460096766,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>TRIÂNGULO</name>
+				<Placemark>
+					<name>TRIÂNGULO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#TRIÂNGULO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010007</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">TRIÂNGULO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">388</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1466</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.80822191999989,-9.996561989676909,0 -67.8077110799999,-9.996444989676929,0 -67.80770387999991,-9.99631403967696,0 -67.80774599999999,-9.99559295967698,0 -67.80782807999989,-9.994938029677,0 -67.8078748799999,-9.994240979676981,0 -67.8079040399999,-9.993738959677,0 -67.80797099999999,-9.992258009677069,0 -67.8080728799999,-9.99194300967708,0 -67.80821003999991,-9.99169001967705,0 -67.80830399999989,-9.991529009677061,0 -67.8085160399999,-9.99124298967709,0 -67.80883607999991,-9.99091502967711,0 -67.80888612,-9.990872009677091,0 -67.8090628799999,-9.990773999677099,0 -67.8095589599999,-9.990532979677139,0 -67.8101849999999,-9.990231029677091,0 -67.8104758799999,-9.99005102967716,0 -67.81325903999991,-9.98873801967715,0 -67.81470587999991,-9.98806697967718,0 -67.81480343999991,-9.98834300967718,0 -67.81481626499991,-9.98837929767717,0 -67.81494426399991,-9.98877295567717,0 -67.81431445199991,-9.98901142767714,0 -67.8129871269999,-9.98954235767715,0 -67.81274417499991,-9.989785309677149,0 -67.81261547599991,-9.989914008677159,0 -67.8125623829999,-9.99079004367711,0 -67.8126951159999,-9.9914271596771,0 -67.8129972119999,-9.991818107677039,0 -67.8126814419999,-9.99201219867707,0 -67.81081895999991,-9.99316700967702,0 -67.8104398799999,-9.99294803967704,0 -67.81016016,-9.993160979677009,0 -67.81006583999989,-9.993264029677009,0 -67.8099369599999,-9.993479039677039,0 -67.8097141199999,-9.993756959677009,0 -67.8095841599999,-9.993875039677,0 -67.8094149599999,-9.99404999967703,0 -67.8092428799999,-9.99423602967698,0 -67.8089329199999,-9.99447497967701,0 -67.80861612,-9.99483596967699,0 -67.8084829199999,-9.99504296967697,0 -67.8084181199999,-9.995153039676969,0 -67.8083968799999,-9.99524303967697,0 -67.80844691999989,-9.99544202967696,0 -67.80845807999989,-9.99558197967696,0 -67.80822191999989,-9.996561989676909,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>CIDADE NOVA</name>
+				<Placemark>
+					<name>CIDADE NOVA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#CIDADE NOVA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010008</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">CIDADE NOVA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">855</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">2989</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.82105079599999,-9.98075365867744,0 -67.82124308900001,-9.982242069677371,0 -67.8212961819999,-9.98325083667736,0 -67.82108380999991,-9.98508254567729,0 -67.8205263329999,-9.986038219677271,0 -67.81970339199999,-9.98675497467724,0 -67.818614985,-9.987312451677189,0 -67.8183037499999,-9.98744433067723,0 -67.8182393079999,-9.987089418677201,0 -67.81802687999991,-9.98610002967725,0 -67.81765607999991,-9.984517019677311,0 -67.81736807999989,-9.983451959677311,0 -67.81730399999989,-9.98334098967733,0 -67.8170440799999,-9.983102039677361,0 -67.8159489599999,-9.98245700967734,0 -67.8155590799999,-9.982250009677349,0 -67.81590611999989,-9.981680039677411,0 -67.81623983999989,-9.9811050296774,0 -67.81651306799991,-9.98061203167744,0 -67.8169816799999,-9.98083599067742,0 -67.81736599999989,-9.98102199967742,0 -67.81771499999989,-9.980392999677431,0 -67.818585363,-9.980802981677421,0 -67.8186129999999,-9.98081599967743,0 -67.81888720399991,-9.980312010677411,0 -67.8189211669999,-9.98024958667745,0 -67.81801608000001,-9.97978697967743,0 -67.8183091199999,-9.979220969677449,0 -67.8184491599999,-9.978857009677499,0 -67.81842107999999,-9.978614009677489,0 -67.81833999999991,-9.978505999677481,0 -67.8176849999999,-9.97820099967752,0 -67.8179761199999,-9.977428979677549,0 -67.8178429199999,-9.97702199967752,0 -67.8177529199999,-9.976896989677551,0 -67.8175048799999,-9.976753979677561,0 -67.8170401199999,-9.976529969677561,0 -67.81691904499991,-9.976764744677521,0 -67.8168366339999,-9.977000864677519,0 -67.8165397849999,-9.977618804677491,0 -67.81567099999999,-9.977149999677531,0 -67.81477699999991,-9.97671899967756,0 -67.81432828599991,-9.97651293267754,0 -67.8140409999999,-9.97638099967757,0 -67.8135191199999,-9.97620956067753,0 -67.8130553579999,-9.97608307967754,0 -67.81321804699991,-9.975486552677591,0 -67.813533392,-9.975061523677621,0 -67.8140543949999,-9.974814732677631,0 -67.814986717,-9.974828442677589,0 -67.81600130299999,-9.975034102677579,0 -67.8169199139999,-9.97540428867757,0 -67.8173770419999,-9.975637330677561,0 -67.8178230489999,-9.97589435167759,0 -67.81832953200001,-9.976204288677581,0 -67.81869994499991,-9.976446190677541,0 -67.81894184699991,-9.97673344967753,0 -67.82003557099991,-9.97805941967748,0 -67.8206448719999,-9.978734949677481,0 -67.8207177229999,-9.978979994677459,0 -67.82092456699991,-9.97977660867746,0 -67.82105079599999,-9.98075365867744,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>SEIS DE AGOSTO</name>
+				<Placemark>
+					<name>SEIS DE AGOSTO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#SEIS DE AGOSTO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010009</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">SEIS DE AGOSTO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">748</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">2637</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.7920971599999,-9.9814879796774,0 -67.79174755999991,-9.981407513677411,0 -67.7914679709999,-9.979745332677441,0 -67.7909179679999,-9.97789866967752,0 -67.7904271199999,-9.975823019677581,0 -67.7904271199999,-9.975554240677591,0 -67.7904271199999,-9.974304989677631,0 -67.7904759759999,-9.97304517967765,0 -67.7905543949999,-9.972771850677679,0 -67.79303086499991,-9.973439336677661,0 -67.79406431299989,-9.973717882677651,0 -67.7970258069999,-9.97459536267761,0 -67.7995896919999,-9.97492441767761,0 -67.8012486769999,-9.975047812677611,0 -67.8014587199999,-9.975066149677581,0 -67.8013931389999,-9.9754756506776,0 -67.8013352789999,-9.97575131767757,0 -67.8012958799999,-9.97593902967758,0 -67.80117815999991,-9.97647497967754,0 -67.8010651199999,-9.97698797967753,0 -67.80092291999991,-9.977591969677521,0 -67.8004408799999,-9.977501969677521,0 -67.8001201199999,-9.977452019677511,0 -67.7996218799999,-9.976920029677521,0 -67.79950991999991,-9.97678997967753,0 -67.79922912000001,-9.97667000967752,0 -67.79879496,-9.976470029677531,0 -67.7979269999999,-9.97606997967755,0 -67.7975630399999,-9.97664201967754,0 -67.7968480799999,-9.97636103967753,0 -67.79621195999989,-9.97605296967758,0 -67.7958501599999,-9.97694603967752,0 -67.7965870799999,-9.977101019677511,0 -67.7977628399999,-9.977604029677529,0 -67.7991819599999,-9.97875098967747,0 -67.7993389199999,-9.978857009677499,0 -67.79986991999991,-9.979091999677459,0 -67.7999581199999,-9.979253999677439,0 -67.80023315999991,-9.978317009677509,0 -67.8016558799999,-9.97858601967746,0 -67.8023791199999,-9.978767009677499,0 -67.80275999999991,-9.978857999677491,0 -67.8024820799999,-9.97991000967742,0 -67.8026530799999,-9.979959959677419,0 -67.80220883999991,-9.980520029677409,0 -67.8019558509999,-9.980755213677419,0 -67.8008442029999,-9.980783587677429,0 -67.8006356329999,-9.980811736677429,0 -67.7991699999999,-9.980673999677389,0 -67.7984756689999,-9.98053407767744,0 -67.79838099999991,-9.9805149996774,0 -67.7977349999999,-9.980159999677459,0 -67.7966724849999,-9.980018659677439,0 -67.7963479999999,-9.979979999677459,0 -67.7957709999999,-9.980151999677419,0 -67.7958969999999,-9.98063399967744,0 -67.79480688,-9.9811240196774,0 -67.79439791999989,-9.98120897967738,0 -67.7940058799999,-9.98107397967738,0 -67.79380103999991,-9.98105696967742,0 -67.79361383999991,-9.9810649796774,0 -67.79330711999999,-9.98123399967738,0 -67.79269296,-9.9814879796774,0 -67.7920971599999,-9.9814879796774,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>RAMAL DA JUDIA</name>
+				<Placemark>
+					<name>RAMAL DA JUDIA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#RAMAL DA JUDIA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010010</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">RAMAL DA JUDIA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">286</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1055</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.7994341039999,-10.0027236756768,0 -67.79939400000001,-10.0024199996767,0 -67.7992489199999,-10.0014929996768,0 -67.79912399999991,-10.0004609696768,0 -67.79897409899991,-10.0000496076768,0 -67.7984371199999,-9.998576009676841,0 -67.7981181599999,-9.998431019676881,0 -67.7971985869999,-9.998140814676891,0 -67.7971815009999,-9.99813645867685,0 -67.7971506509999,-9.998128595676899,0 -67.7971354819999,-9.998124728676871,0 -67.7970462169999,-9.99810197467689,0 -67.7970304369999,-9.9980979526769,0 -67.797009596,-9.998092639676869,0 -67.7969133579999,-9.99806327067687,0 -67.7961359999999,-9.9978260396769,0 -67.7953929599999,-9.996738029676949,0 -67.7939691599999,-9.99562598967697,0 -67.7927170799999,-9.994924979677,0 -67.7918730649999,-9.994490175677001,0 -67.7917816199999,-9.99405049467703,0 -67.79186711999991,-9.993701969677041,0 -67.7915719199999,-9.99297701967706,0 -67.7912281199999,-9.992203019677049,0 -67.7912281199999,-9.991380959677111,0 -67.7911791599999,-9.9901719896771,0 -67.7909831399999,-9.988286489677201,0 -67.79078711999991,-9.986400989677239,0 -67.7920139999999,-9.98388602967734,0 -67.7920139999999,-9.98319971467736,0 -67.7920139999999,-9.98299151967734,0 -67.7919839109999,-9.982812638677339,0 -67.79174755999991,-9.981407513677411,0 -67.7920971599999,-9.9814879796774,0 -67.79269296,-9.9814879796774,0 -67.79330711999999,-9.98123399967738,0 -67.79361383999991,-9.9810649796774,0 -67.79380103999991,-9.98105696967742,0 -67.7940058799999,-9.98107397967738,0 -67.79439791999989,-9.98120897967738,0 -67.79480688,-9.9811240196774,0 -67.7958969999999,-9.98063399967744,0 -67.7957709599999,-9.982067039677389,0 -67.7958130799999,-9.983739959677321,0 -67.79554487999989,-9.984188969677311,0 -67.7952338399999,-9.984537989677291,0 -67.7941599599999,-9.984938039677269,0 -67.7940091199999,-9.98523800967728,0 -67.7939918399999,-9.98562896967727,0 -67.7946128399999,-9.987335009677199,0 -67.7946380399999,-9.98768501967723,0 -67.7946891599999,-9.98892503967714,0 -67.79473883999989,-9.989466029677169,0 -67.7949400799999,-9.991475999677069,0 -67.7949087129999,-9.991572008677069,0 -67.79473883999989,-9.99209195967706,0 -67.7958469199999,-9.993957029677009,0 -67.7958479899999,-9.993959775677011,0 -67.7961320399999,-9.99468899967699,0 -67.7968390799999,-9.99583703967693,0 -67.79702592,-9.996042959676959,0 -67.7976649199999,-9.99668096967693,0 -67.7979590399999,-9.99695146467692,0 -67.7982531599999,-9.997221959676899,0 -67.7984399999999,-9.997488989676871,0 -67.7989681199999,-9.998243999676889,0 -67.7990609999999,-9.99848402967686,0 -67.7996168399999,-9.99992699967685,0 -67.7997862849999,-10.0003672256768,0 -67.7998095869999,-10.0004277666768,0 -67.79987015099989,-10.0005851146768,0 -67.7999292089999,-10.0007385506768,0 -67.7999334239999,-10.0007494096768,0 -67.7999403579999,-10.0007674326768,0 -67.8000295119999,-10.0009991496768,0 -67.80004132399991,-10.0010298506768,0 -67.8000509999999,-10.0010549996768,0 -67.8000725639999,-10.0011261086768,0 -67.8001140129999,-10.0012627936768,0 -67.8002378619999,-10.0014334676768,0 -67.8006409179999,-10.0019713076768,0 -67.8008729999999,-10.0022809996767,0 -67.8008728799999,-10.0022810396768,0 -67.80012140299991,-10.0025310936768,0 -67.79973099999999,-10.0026609996767,0 -67.7994341039999,-10.0027236756768,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>AEROPORTO VELHO</name>
+				<Placemark>
+					<name>AEROPORTO VELHO</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#AEROPORTO VELHO</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010011</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">AEROPORTO VELHO</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">584</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">2028</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.8168619869999,-9.99608030967692,0 -67.8148614109999,-9.993997945676989,0 -67.81402244099991,-9.993019949677009,0 -67.8131464059999,-9.99201118267707,0 -67.8131205079999,-9.99197766767708,0 -67.8129972119999,-9.991818107677039,0 -67.8126951159999,-9.9914271596771,0 -67.8125623829999,-9.99079004367711,0 -67.81261547599991,-9.989914008677159,0 -67.81274417499991,-9.989785309677149,0 -67.8129871269999,-9.98954235767715,0 -67.81431445199991,-9.98901142767714,0 -67.81494426399991,-9.98877295567717,0 -67.8170487419999,-9.987976114677179,0 -67.8183037499999,-9.98744433067723,0 -67.818614985,-9.987312451677189,0 -67.81970339199999,-9.98675497467724,0 -67.8205263329999,-9.986038219677271,0 -67.82108380999991,-9.98508254567729,0 -67.8212961819999,-9.98325083667736,0 -67.82124308900001,-9.982242069677371,0 -67.82105079599999,-9.98075365867744,0 -67.82092456699991,-9.97977660867746,0 -67.82129901799991,-9.97977604467745,0 -67.82250707999989,-9.979808039677421,0 -67.8226618799999,-9.97987895967746,0 -67.8235809599999,-9.97988696967745,0 -67.8240747289999,-9.97984353367745,0 -67.823896783,-9.97915579667745,0 -67.8236180399999,-9.978274979677479,0 -67.8243268799999,-9.977846039677489,0 -67.82478515999991,-9.978372989677471,0 -67.8252409199999,-9.97923698967748,0 -67.8253129199999,-9.97939799967747,0 -67.8253201199999,-9.97966196967745,0 -67.8253539599999,-9.98020403967743,0 -67.8253309199999,-9.9804369596774,0 -67.82528808000001,-9.980701019677401,0 -67.8251761199999,-9.981015029677399,0 -67.8249928799999,-9.98154395967741,0 -67.82492411999991,-9.981714959677371,0 -67.8234869999999,-9.982655999677331,0 -67.82321988,-9.98307197967733,0 -67.8221049599999,-9.98557802967728,0 -67.8215649599999,-9.986758019677209,0 -67.8209608799999,-9.98797499967721,0 -67.8189920399999,-9.98889398967718,0 -67.8188311199999,-9.98896697967716,0 -67.81845797699989,-9.989097972677181,0 -67.8183010529999,-9.98930566567717,0 -67.8177129269999,-9.99072990767711,0 -67.8173687429999,-9.991617979677089,0 -67.81704191999999,-9.99194903967709,0 -67.81667003999991,-9.99233297967708,0 -67.8170879999999,-9.99245996967703,0 -67.8181759199999,-9.992800979677019,0 -67.8183519599999,-9.99286298967704,0 -67.8187850399999,-9.993006989677021,0 -67.81923395999991,-9.993144959677039,0 -67.8187321809999,-9.994753627676999,0 -67.8186835889999,-9.994879967676949,0 -67.8186752149999,-9.99490173867699,0 -67.8186723109999,-9.994909287676959,0 -67.8186686009999,-9.994924871677,0 -67.81852270099991,-9.995537619676959,0 -67.8185018569999,-9.99554299867698,0 -67.81759783699989,-9.99584762867693,0 -67.8168619869999,-9.99608030967692,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>PISTA</name>
+				<Placemark>
+					<name>PISTA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#PISTA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010012</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">PISTA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">379</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1431</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.82518154899989,-9.98827882967721,0 -67.82516974799999,-9.98827664467718,0 -67.8251307859999,-9.98826942867721,0 -67.8251009359999,-9.98826390067717,0 -67.8243913299999,-9.9881324886772,0 -67.82279402499999,-9.98774027967718,0 -67.8229806409999,-9.987208898677221,0 -67.8230139599999,-9.98706302967723,0 -67.8231989999999,-9.98660402967721,0 -67.8232180799999,-9.98648000967723,0 -67.8233678399999,-9.98606402967723,0 -67.82341787999989,-9.985982039677269,0 -67.82356691999991,-9.985633019677239,0 -67.82462495999989,-9.986014979677259,0 -67.8253341599999,-9.986246999677251,0 -67.8259760399999,-9.98633699967724,0 -67.8262431599999,-9.986380019677259,0 -67.8262838399999,-9.986028029677261,0 -67.82627411999989,-9.98585099967724,0 -67.82632595999991,-9.98540000967726,0 -67.82646095999991,-9.98470502967729,0 -67.8275938799999,-9.985896989677279,0 -67.82813352699991,-9.98649872567723,0 -67.8281307329999,-9.98661355267723,0 -67.8279909369999,-9.987152088677229,0 -67.82783895199989,-9.98757138067722,0 -67.8271539599999,-9.9875850296772,0 -67.82646887999989,-9.987404039677219,0 -67.8260249999999,-9.98724896967722,0 -67.8258748799999,-9.98726795967722,0 -67.82518154899989,-9.98827882967721,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>BAIXADA DA HABITASA</name>
+				<Placemark>
+					<name>BAIXADA DA HABITASA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#BAIXADA DA HABITASA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010013</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">BAIXADA DA HABITASA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">1066</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">3711</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.7919819599999,-9.969485039677769,0 -67.7922148799999,-9.96897599967779,0 -67.7922343659999,-9.96893768367776,0 -67.7923769999999,-9.968620999677791,0 -67.79257200000001,-9.96825599967781,0 -67.7928668399999,-9.967839029677821,0 -67.7930749199999,-9.96770501967781,0 -67.7933449199999,-9.967436999677799,0 -67.7936199599999,-9.96703802967782,0 -67.79392091999991,-9.966459959677881,0 -67.79420207999991,-9.96591698967787,0 -67.7953259999999,-9.96609698967786,0 -67.7958980399999,-9.96624602967786,0 -67.7963678399999,-9.966420989677889,0 -67.7968588799999,-9.966565979677849,0 -67.7977419599999,-9.966860009677861,0 -67.7979590399999,-9.96693002967787,0 -67.79920607999991,-9.967345019677831,0 -67.7999249999999,-9.96793397967782,0 -67.8005920799999,-9.96868403967777,0 -67.8016108799999,-9.96904700967778,0 -67.80205187999989,-9.969437969677781,0 -67.8014848799999,-9.969973019677759,0 -67.8008138399999,-9.96956702967778,0 -67.80017411999999,-9.969623999677779,0 -67.79892203999989,-9.969722009677771,0 -67.79874599999989,-9.969974009677751,0 -67.7972260799999,-9.970308989677729,0 -67.79626811999989,-9.970457039677729,0 -67.7953259999999,-9.97057997967771,0 -67.7939158799999,-9.970110989677719,0 -67.7934331199999,-9.969890039677759,0 -67.7933009999999,-9.97026596967777,0 -67.7932340399999,-9.970443989677721,0 -67.7937329999999,-9.97060895967774,0 -67.7952579599999,-9.971159039677699,0 -67.79631995999991,-9.97096400967772,0 -67.79637683999989,-9.97152596967773,0 -67.7967749999999,-9.971484029677709,0 -67.79726496000001,-9.97138295967769,0 -67.79762099999991,-9.9722789996777,0 -67.79759517399989,-9.9725013496777,0 -67.7975489999999,-9.97295795967764,0 -67.7987701199999,-9.97281296967768,0 -67.7994771599999,-9.972717029677691,0 -67.7995649999999,-9.97382996967764,0 -67.79823191999991,-9.97376300967762,0 -67.7973062999999,-9.973517836677621,0 -67.7972879999999,-9.973512989677671,0 -67.79608811999989,-9.973100969677629,0 -67.7959365599999,-9.972894464677641,0 -67.7957849999999,-9.97268795967765,0 -67.7955538799999,-9.972537029677691,0 -67.79509092000001,-9.97238996967768,0 -67.7928711599999,-9.9716010296777,0 -67.7923750799999,-9.9714009596777,0 -67.7923140499999,-9.971372427677711,0 -67.7912479199999,-9.97087400967772,0 -67.7915661599999,-9.970388009677711,0 -67.7917861199999,-9.96997499967774,0 -67.7919819599999,-9.969485039677769,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>PRAIA DO AMAPA</name>
+				<Placemark>
+					<name>PRAIA DO AMAPA</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#PRAIA DO AMAPA</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#CETE03_01_AglomeradosSubnormais_250k_2011_ParaKmz_schema">
+							<SimpleData name="CodAGSN_BogOut2011">12004010014</SimpleData>
+							<SimpleData name="NomeAGSN_BogOut2011">PRAIA DO AMAPA</SimpleData>
+							<SimpleData name="SiglaUF_CGEO">AC</SimpleData>
+							<SimpleData name="CodMun_BogOut2011">1200401</SimpleData>
+							<SimpleData name="NomeMun_BogOut2011">RIO BRANCO</SimpleData>
+							<SimpleData name="DPO_EmAGSN">549</SimpleData>
+							<SimpleData name="PopEmDPO_EmAGSN">1900</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-67.8392966899999,-10.027615652676,0 -67.839294434,-10.027609824676,0 -67.8391494749999,-10.027196883676,0 -67.83893674399989,-10.026623039676,0 -67.8386840819999,-10.025913238676,0 -67.8384933469999,-10.0250320426761,0 -67.8384780879999,-10.0240001676761,0 -67.8386917109999,-10.0228834146761,0 -67.8390731809999,-10.0217132566761,0 -67.83937072799991,-10.0208415986762,0 -67.8394300519999,-10.0205842396762,0 -67.8394731059999,-10.0205024196762,0 -67.839865346,-10.0194560686762,0 -67.84041522299989,-10.0177977106763,0 -67.8409341699999,-10.0160722486763,0 -67.8409423829999,-10.0148715966763,0 -67.8410267869999,-10.0138051496764,0 -67.84131648099989,-10.0132633666764,0 -67.84148406999989,-10.0129499436764,0 -67.84150715999991,-10.0127629796764,0 -67.8418171199999,-10.0108979996765,0 -67.8414229199999,-10.0101159896765,0 -67.8413059199999,-10.0096409696765,0 -67.8411298799999,-10.0092339896765,0 -67.84076915999989,-10.0089170096766,0 -67.84055891999991,-10.0088090096766,0 -67.8403911599999,-10.0088589596766,0 -67.83978707999999,-10.0091500196765,0 -67.8393511199999,-10.0091500196765,0 -67.8390649199999,-10.0091169896765,0 -67.8384608399999,-10.0091339996766,0 -67.8378988799999,-10.0093670096765,0 -67.83774803999999,-10.0096579796765,0 -67.8373790399999,-10.0099659596765,0 -67.8368750399999,-10.0103650196765,0 -67.8363051599999,-10.0110770096765,0 -67.83536484,-10.0109439896765,0 -67.8351639599999,-10.0114270196765,0 -67.8348781199999,-10.0119470396765,0 -67.8346268399999,-10.0123720196764,0 -67.8338920799999,-10.0125469796764,0 -67.8336339599999,-10.0130529596764,0 -67.8327778799999,-10.0129460396764,0 -67.8313519199999,-10.0122470096765,0 -67.82975999999989,-10.0116729896764,0 -67.82823395999991,-10.0110480296765,0 -67.8284431199999,-10.0105409696765,0 -67.8286529999999,-10.0100500196765,0 -67.8288211199999,-10.0095249596765,0 -67.82901407999989,-10.0090259996766,0 -67.82923187999999,-10.0085100296765,0 -67.8290468399999,-10.0084020296766,0 -67.8264919199999,-10.0082019596766,0 -67.8250699199999,-10.0077270296766,0 -67.8247300799999,-10.0075940096766,0 -67.8235778389999,-10.0068563136766,0 -67.8226611599999,-10.0060460096766,0 -67.82349203999991,-10.0053420296767,0 -67.82412599999989,-10.0052980196767,0 -67.82433099799989,-10.0052859866766,0 -67.8252329999999,-10.0052330396767,0 -67.8255992239999,-10.0054714926767,0 -67.8259508399999,-10.0049159696767,0 -67.82655491999989,-10.0052330396767,0 -67.8270217659999,-10.0043764626767,0 -67.82724071999991,-10.0041142806767,0 -67.8284075439999,-10.0048614576767,0 -67.8310778429999,-10.0062637366766,0 -67.8323760519999,-10.0069454776766,0 -67.8351916969999,-10.0075219096766,0 -67.83838423899989,-10.0071006706766,0 -67.84046825899991,-10.0067459436766,0 -67.84104469099989,-10.0069011366766,0 -67.8423970869999,-10.0073223756766,0 -67.84348343799989,-10.0082091926765,0 -67.8440155279999,-10.0090516686765,0 -67.8442594029999,-10.0097389526765,0 -67.8447471529999,-10.0107587926765,0 -67.8454122659999,-10.0114239056765,0 -67.84729675199991,-10.0127984716764,0 -67.8470747609999,-10.0131090296764,0 -67.8459197269999,-10.0145299046764,0 -67.84571739899989,-10.0154546226763,0 -67.8453329999999,-10.0166829996763,0 -67.84537826799991,-10.0170045866763,0 -67.8448368089999,-10.0194792676762,0 -67.8439367009999,-10.0207760216762,0 -67.8438368479999,-10.0208014106762,0 -67.84295219799991,-10.0226445596761,0 -67.8429170359999,-10.0227161876761,0 -67.8427753909999,-10.0229766476761,0 -67.8426784819999,-10.0231341816761,0 -67.8417434159999,-10.0245867696761,0 -67.84168179699989,-10.0246799276761,0 -67.8415070719999,-10.024919809676,0 -67.84148045399991,-10.024953619676,0 -67.8413236,-10.0251508636761,0 -67.84097144799991,-10.025593694676,0 -67.8402806739999,-10.026565122676,0 -67.8401612549999,-10.026725419676,0 -67.8399710769999,-10.026953468676,0 -67.8397662509999,-10.027168701676,0 -67.83970811899989,-10.027224893676,0 -67.8392966899999,-10.027615652676,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Nomes Aglomerados Subnormais</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>LAGOA</name>
+			<visibility>0</visibility>
+			<styleUrl>#LAGOA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-72.67082499999999,-7.639184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRUZEIRINHO</name>
+			<visibility>0</visibility>
+			<styleUrl>#CRUZEIRINHO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-72.68125999999999,-7.64326699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAIXA CEMITÉRIO</name>
+			<visibility>0</visibility>
+			<styleUrl>#BAIXA CEMITÉRIO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-72.67439299999999,-7.640842999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AYRTON SENNA</name>
+			<visibility>0</visibility>
+			<styleUrl>#AYRTON SENNA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.823168,-9.998240999999989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DOM GIOCONDO</name>
+			<visibility>0</visibility>
+			<styleUrl>#DOM GIOCONDO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.81513699999999,-9.973924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PREVENTÓRIO</name>
+			<visibility>0</visibility>
+			<styleUrl>#PREVENTÓRIO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.821577,-9.976947999999989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAIXADA DA CADEIA VELHA</name>
+			<visibility>0</visibility>
+			<styleUrl>#BAIXADA DA CADEIA VELHA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.788611,-9.968423,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TAQUARI</name>
+			<visibility>0</visibility>
+			<styleUrl>#TAQUARI_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.81773099999999,-10.009801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TRIÂNGULO</name>
+			<visibility>0</visibility>
+			<styleUrl>#TRIÂNGULO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.811324,-9.991251999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CIDADE NOVA</name>
+			<visibility>0</visibility>
+			<styleUrl>#CIDADE NOVA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.81717500000001,-9.982074999999989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEIS DE AGOSTO</name>
+			<visibility>0</visibility>
+			<styleUrl>#SEIS DE AGOSTO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.796593,-9.978555999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RAMAL DA JUDIA</name>
+			<visibility>0</visibility>
+			<styleUrl>#RAMAL DA JUDIA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.79583,-9.995653000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AEROPORTO VELHO</name>
+			<visibility>0</visibility>
+			<styleUrl>#AEROPORTO VELHO_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.81895799999999,-9.993544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PISTA</name>
+			<visibility>0</visibility>
+			<styleUrl>#PISTA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.825464,-9.987064999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAIXADA DA HABITASA</name>
+			<visibility>0</visibility>
+			<styleUrl>#BAIXADA DA HABITASA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.79665,-9.972395000000009,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PRAIA DO AMAPA</name>
+			<visibility>0</visibility>
+			<styleUrl>#PRAIA DO AMAPA_LABELS</styleUrl>
+			<Point>
+				<coordinates>-67.834979,-10.009619,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
